@@ -1,0 +1,57 @@
+/* DashboardPage.css */
+
+ 
+.search-ins {
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 20px;
+  animation: colorTransition 10s linear infinite;
+  font-style: italic;
+}
+
+.contribute-button {
+  background: linear-gradient(to right, #373b44, #2f3031);
+  border: none;
+  color: rgb(251, 73, 73);
+  font-size: 20px;
+  display: flex;
+  justify-content: center;
+  
+  white-space: nowrap;
+  text-decoration: underline;
+  padding-top: 18px;
+  margin-bottom: 20px;
+}
+a.contribute-button:hover {
+  color: seashell;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 768px) {
+  .contribute-button {
+    font-size: 16px;
+  }
+}
+
+/* Additional styling for the line break */
+.line-break {
+  border-top: 1px solid rgb(176, 175, 175);
+}
+
+/* Animation for color transition */
+@keyframes colorTransition {
+  0% {
+    color: red;
+  }
+  50% {
+    color: white;
+  }
+  75% {
+    color: red;
+  }
+  100% {
+    color: white;
+  }
+}
