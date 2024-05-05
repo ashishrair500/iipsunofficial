@@ -3,9 +3,17 @@
 
 /* Default styles */
 .navbar {
-  background: linear-gradient(to right, #5b5d5f, #092c4f);
-  padding: 10px 20px;
-  box-shadow: 0 0 20px black, 0 0 30px black, inset 0 0 20px rgba(0, 0, 0, 0.5);
+  height: 102px;
+  background: #c054ff;
+    background: -moz-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: -webkit-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
+  padding: 32px;
+  position:fixed !important;
+  width: 100%;
+  z-index: 9999;
+  margin-bottom: 40px;
+  /* box-shadow: 0 0 20px black, 0 0 30px black, inset 0 0 20px rgba(0, 0, 0, 0.5); */
 }
 
 .navbar-container {
