@@ -1,7 +1,12 @@
 import React from 'react';
 import "./Footer.css";
+import { useSelector, useDispatch } from 'react-redux';
+import { signOutUser } from '../../redux/actionCreators/authActionCreator';
 
 const Footer = () => {
+  const { isAuthenticated, user } = useSelector((state) => state.auth);
+  // const location = useLocation();
+  const dispatch = useDispatch();
   return (
     <footer>
       <div className="footer-wrappper footer-bg">
@@ -76,6 +81,13 @@ const Footer = () => {
                       <li><a href="#">Restaurant</a></li>
                       <li><a href="#">Programing</a></li>
                       <li><a href="#">Architecture</a></li>
+                      <button className='btn' onClick={() => dispatch(signOutUser())}>
+              
+              Logout
+             
+    
+              </button>
+
                     </ul>
                   </div>
                 </div>

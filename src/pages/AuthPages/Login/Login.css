@@ -5,6 +5,10 @@ body, html {
   padding: 0;
   height: 100%;
   font-size: 25px; /* Set a base font size for the entire page */
+  background: #c054ff;
+    background: -moz-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: -webkit-linear-gradient(top, #c054ff 0%, #5274ff 100%);
+    background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
 }
 
 .login-container {
