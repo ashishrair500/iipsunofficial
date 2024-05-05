@@ -13,7 +13,14 @@ const Footer = () => {
                 <div className="single-footer-caption mb-50">
                   <div className="single-footer-caption mb-30">
 
-                    <h3>iips.Unofficial</h3>
+                  <a href="https://www.dauniv.ac.in/" target='_blank' className='footer-text'>
+                        <img 
+                          src="../../../public/assets/favicon.ico"
+                          alt="Davv Logo"
+                          className='footer-logo'
+                        /> IIPS DAVV
+                      </a>
+                   
                     <div className="footer-tittle">
                       <div className="footer-pera">
                         <p>The automated process starts as soon as your clothes go into the machine.</p>

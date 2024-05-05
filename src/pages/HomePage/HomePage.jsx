@@ -91,6 +91,21 @@ const HomePage = () => {
     </div>
 
 
+
+    <section>
+  <div class="section-container">
+    <div class="left-part">
+      <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+    </div>
+    <div class="right-part">
+      <h2>Take the next step toward your personal and professional goals with us.</h2>
+      <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+      <a href="#" class="btn">Join now for Free</a>
+    </div>
+  </div>
+</section>
+
+
 {/*          
             <div className='carousel'>
             
@@ -104,12 +119,12 @@ const HomePage = () => {
           </div>
         </div>
       </div>
-      <a href="https://www.linkedin.com/school/iips-davv/" target="_blank" className='iips-linkedin'
+      {/* <a href="https://www.linkedin.com/school/iips-davv/" target="_blank" className='iips-linkedin'
       >@International Institute of Professional Studies
 
         <img src="../../../public/assets/linkedin-logo.jpg"loading="lazy" ></img>
 
-      </a>
+      </a> */}
 
       <Footer />
 

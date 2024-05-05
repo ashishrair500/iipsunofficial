@@ -15,7 +15,6 @@ import FileComponentDelete from '../../components/DashboardComponents/FileCompon
 
 import UploadFile from '../../components/DashboardComponents/UploadFile/UploadFile';
 import './DashboardPage.css';
-
 import Footer from '../../components/Footer/Footer';
 const DashboardPage = () => {
   const [isCreateFolderOpen, setIsCreateFolderOpen] = useState(false);

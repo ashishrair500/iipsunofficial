@@ -1,6 +1,11 @@
 /* DashboardPage.css */
 
- 
+ body{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  background-color: white;
+ }
 .search-ins {
   text-align: center;
   color: black;
@@ -12,7 +17,7 @@
 }
 
 .contribute-button {
-  background: linear-gradient(to right, #373b44, #2f3031);
+
   border: none;
   color: rgb(251, 73, 73);
   font-size: 20px;

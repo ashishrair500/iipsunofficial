@@ -1,7 +1,23 @@
+body, html {
+  font-family: 'Mulish', sans-serif;
+}
+
+
+
+
+
+.footer-wrappper{
+  background: hsl(262, 52%, 47%);
+  padding-top: 3px;
+  padding-bottom: 13px;
+  
+
+}
 .footer-area .footer-pera p {
   color: #fff;
   padding-right: 52px;
   font-size: 16px;
+  margin-top: 20px;
   margin-bottom: 50px;
   line-height: 1.8
 }
@@ -9,6 +25,7 @@
   padding-top: 100px;
   padding-bottom: 13px;
 }
+
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-area .footer-pera p {
       padding-right:0px
@@ -48,7 +65,18 @@
   color: #fff;
   text-decoration: underline;
 }
-
+.footer-text {
+  color: #fff;
+  font-size: 23px;
+  font-weight: bold;
+  
+  text-decoration: none;
+}
+.footer-logo {
+  height: 34px;
+  margin-bottom: 7px;
+  padding-right: 11px;
+}
 
 .footer-area .info.error {
   color: #C86FFF
