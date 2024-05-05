@@ -41,13 +41,14 @@ const Footer = () => {
               <div className="col-xl-2 col-lg-3 col-md-4 col-sm-5">
                 <div className="single-footer-caption mb-50">
                   <div className="footer-tittle">
-                    <h4>Our solutions</h4>
+                    <h4>Imp Links</h4>
                     <ul className="list-unstyled">
-                      <li><a href="#">Design &amp; creatives</a></li>
-                      <li><a href="#">Telecommunication</a></li>
-                      <li><a href="#">Restaurant</a></li>
+                      <li><a href="https://iips.edu.in/" target="_blank">IIPS Official</a></li>
+                      <li><a href="https://www.dauniv.ac.in/" target="_blank">Davv Official</a></li>
+                      <li><a href="https://swayam.gov.in/" target="_blank">Swayam Portal</a></li>
                       <li><a href="#">Programing</a></li>
                       <li><a href="#">Architecture</a></li>
+                      {/* Add more list items as needed */}
                     </ul>
                   </div>
                 </div>
@@ -55,11 +56,11 @@ const Footer = () => {
               <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6">
                 <div className="single-footer-caption mb-50">
                   <div className="footer-tittle">
-                    <h4>Support</h4>
+                    <h4>Current</h4>
                     <ul className="list-unstyled">
-                      <li><a href="#">Design &amp; creatives</a></li>
-                      <li><a href="#">Telecommunication</a></li>
-                      <li><a href="#">Restaurant</a></li>
+                      <li><a href="https://drive.google.com/file/d/1bgUJrETbFwL2FQnayw0HXDE14bIpNUbp/view?usp=drivesdk" target="_blank">Academic Calendar</a></li>
+                      <li><a href="https://drive.google.com/file/d/1SOP1oO4tKTByTqBKoXsoJCk1Is094DXz/view" target="_blank">Upcoming Exam Time Tables</a></li>
+                      <li><a href="https://davv.mponline.gov.in/Portal/services/DAVVDASHBOARD/DAVVHOME.aspx" target="_blank">Davv Mponline</a></li>
                       <li><a href="#">Programing</a></li>
                       <li><a href="#">Architecture</a></li>
                     </ul>
@@ -69,11 +70,12 @@ const Footer = () => {
               <div className="col-xl-2 col-lg-3 col-md-4 col-sm-6">
                 <div className="single-footer-caption mb-50">
                   <div className="footer-tittle">
-                    <h4>Company</h4>
+                    <h4>Other</h4>
                     <ul className="list-unstyled">
-                      <li><a href="#">Design &amp; creatives</a></li>
-                      <li><a href="#">Telecommunication</a></li>
-                      <li><a href="#">Restaurant</a></li>
+                      <li><a href="http://www.lib.dauniv.ac.in/" target="_blank"> Central Library</a></li>
+                      <li><a href="https://www.dauniv.ac.in/utdresults" target="_blank">Results</a></li>
+                      <li><a href="/AboutUs" target="_blank">Contact Us</a></li>
+                      {/* Add more list items as needed */}
                       <li><a href="#">Programing</a></li>
                       <li><a href="#">Architecture</a></li>
                     </ul>
