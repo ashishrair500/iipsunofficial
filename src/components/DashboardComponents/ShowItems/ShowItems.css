@@ -2,11 +2,11 @@
 
 .show-items {
     width: 100%;
-    background: linear-gradient(to right, #373b44, #2f3031);
+    
   }
   
   h1 {
-    color: #ffc107;
+    color: black;
     font-size: 2em; /* Set the font size to make it larger */
   }
   
@@ -17,7 +17,7 @@
   }
   
   .show-item {
-    flex-basis: calc(20% - 20px); /* 20% to fit 5 items horizontally */
+    flex-basis: calc(25% - 20px); /* 20% to fit 5 items horizontally */
     margin: 10px;
     padding: 10px;
     text-align: center;
@@ -40,7 +40,7 @@
   .show-item span {
     display: block;
     font-weight: bold;
-    color: #ffc107; /* Set the text color */
+    color: black; /* Set the text color */
     margin-top: 10px; /* Add margin for better spacing */
     font-size: 1em; /* Set the font size for folder names */
     
