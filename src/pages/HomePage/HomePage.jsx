@@ -22,6 +22,8 @@ const HomePage = () => {
       <div>
 
         <Navbar />
+        {/* <div class="content-below-navbar">
+</div> */}
         <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
         <div className='home-container'>
           <div className='home-content'>
