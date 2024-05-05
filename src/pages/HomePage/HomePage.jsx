@@ -17,20 +17,19 @@ const HomePage = () => {
     }),
     shallowEqual
   );
-
   return (
     <>
       <div>
 
         <Navbar />
+        <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
         <div className='home-container'>
           <div className='home-content'>
-            <h1 className='home-heading'>
-              ||  सा विद्या या विमुक्तये ||
-            </h1>
+           
 
             <div className='content-below-line'>
-              <div className='text-container'>
+            {/* <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" /> */}
+              {/* <div className='text-container'>
 
 
                 <div className='home-para'>
@@ -54,12 +53,45 @@ const HomePage = () => {
                   alt="IIPS Logo"
                   className='logo-image'
                 />
-              </div>
+              </div> */}
 
             </div>
-            <Link className='glow-on-hover' to={isLoggedIn ? '/dashboard' : '/login'}>
-              Explore Study Material
-            </Link>
+
+
+   <div class="grid-container">
+
+    <div class="offering">
+        <img src="../../../public/assets/icon1.png" alt="Offering 1"  />
+        <div className='features-caption'>
+              <h3>Explore study </h3>
+              <p>Explore Some study Materialvgh cghg </p>
+      </div>
+        
+  
+    </div>
+    <div class="offering">
+    <img src="../../../public/assets/icon2.png" alt="Offering 1"  />
+        <div className='features-caption'>
+              <h3>Explore fdgdtgdhd</h3>
+              <p>Explore Some study Materialjj</p>
+        </div>
+    </div>
+
+
+      <div class="offering">
+      <img src="../../../public/assets/icon3.png" alt="Offering 1"  />
+        <div className='features-caption'>
+              <h3>Explore ggdgg</h3>
+              <p>Explore Some study Materialkjhj.</p>
+        </div>
+      </div>
+      
+
+
+    </div>
+
+
+{/*          
             <div className='carousel'>
             
 
@@ -68,7 +100,7 @@ const HomePage = () => {
               <img src="../../../public/assets/3_iips-hostel.jpg" alt="IIPS" loading="lazy" />
               <img src="../../../public/assets/4_iips.jpg" alt="IIPS" loading="lazy" />
 
-            </div>
+            </div> */}
           </div>
         </div>
       </div>
