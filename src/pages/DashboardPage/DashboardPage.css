@@ -6,17 +6,15 @@
   box-sizing: border-box;
   background-color: white;
  }
-.search-ins {
-  text-align: center;
-  color: black;
-  font-size: 1em;
-  font-weight: bold;
-  margin-top: 20px;
-  animation: colorTransition 10s linear infinite;
-  font-style: italic;
+/* Adjust padding for content below navbar */
+.content-below-navbar {
+  padding-top: 102px; /* Adjust based on the height of your navbar */
 }
 
-.contribute-button {
+.main-img{
+  z-index: 10000;
+}
+ .contribute-button {
 
   border: none;
   color: rgb(251, 73, 73);
@@ -33,6 +31,17 @@ a.contribute-button:hover {
   color: seashell;
   cursor: pointer;
 }
+
+.search-ins {
+  text-align: center;
+  color: black;
+  font-size: 1em;
+  font-weight: bold;
+  margin-top: 100px;
+  animation: colorTransition 10s linear infinite;
+  font-style: italic;
+}
+
 
 @media screen and (max-width: 768px) {
   .contribute-button {

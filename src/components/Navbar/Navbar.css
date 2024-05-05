@@ -1,6 +1,8 @@
 /* Navbar.css */
 
-
+*{
+  font-family: "Mulish", sans-serif;
+}
 /* Default styles */
 .navbar {
   height: 102px;
@@ -9,16 +11,19 @@
     background: -webkit-linear-gradient(top, #c054ff 0%, #5274ff 100%);
     background: linear-gradient(to bottom, #c054ff 0%, #5274ff 100%);
   padding: 32px;
-  position:fixed !important;
+  /* position:fixed !important; */
   width: 100%;
-  z-index: 9999;
-  margin-bottom: 40px;
+  /* z-index: 9999; */
+  /* margin-bottom: 40px; */
+  /* left: 0; */
+  /* margin: auto; */
+  
   /* box-shadow: 0 0 20px black, 0 0 30px black, inset 0 0 20px rgba(0, 0, 0, 0.5); */
 }
 
 .navbar-container {
   max-width: 1200px;
-  margin-left: 40px;
+  margin-left: 400px;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -26,21 +31,23 @@
 
 .navbar-brand {
   text-decoration: none;
-  font-size: 1.5em;
+  font-size: 1.3em;
   font-weight: bolder;
   color: #fffb00;
   margin-right: 20px;
 }
 
+ 
 .navbar-links {
   display: flex;
+  float: right;
   gap: 10px;
 }
 
 .navbar-link {
   text-decoration: none;
   color: white;
-  font-size: 1.2em;
+  font-size: 16px;
 }
 
 .navbar-nav {
@@ -82,7 +89,18 @@ li img {
   height: 40px;
   width: auto;
 }
-.register-btn,.login-btn,
+ 
+.navbar-nav .btn {
+  
+  color: white !important;
+  font-size: 16px !important;
+  font-weight: 600 !important;
+}
+.navbar-nav .btn:hover {
+  
+  scale: 1.1 !important;
+}
+/* .register-btn,.login-btn,
 .logout-btn {
   color: white;
   text-decoration: none;
@@ -90,15 +108,12 @@ li img {
   border: none;
   cursor: pointer;
   border-radius: 15px;
-  transition: all 0.3s; /* Apply transition to all properties */
-  font-size: 1.7em; /* Increase font size */
-  display: inline-block;
-  position: relative;
-  z-index: 0;
+  transition: all 0.3s; 
+  font-size: 1.7em; 
 
    
 
-  /* Apply the shadow effect */
+  
   &:after,
   &:hover:after {
     z-index: -1;
@@ -112,15 +127,15 @@ li img {
     border-radius: 10px;
   }
 
-  /* Apply the scale effect */
+
   &:hover,
   &:focus {
-    transform: scale(1.1); /* Increase size on hover or focus */
-    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); /* Add a subtle shadow on hover or focus */
+    transform: scale(1.1); 
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.5); 
   }
 }
 
-/* Add the animation for the glowing effect */
+
  
 .logout-btn {
   
@@ -145,7 +160,7 @@ li img {
 .login-btn {
   margin-right: 0px !important;
 }
-/* Responsive styles for smaller screens */
+
 @media (max-width: 768px) {
   .navbar {
     padding: 15px;
@@ -154,7 +169,7 @@ li img {
     display: flex;
     flex-direction: column;
     gap: 10px;
-    align-items: center; /* Center the items */
+    align-items: center; 
   }
 .navbar-brand {
    
@@ -193,4 +208,4 @@ li img {
      margin-right:50px
 }
 }
-
+ */

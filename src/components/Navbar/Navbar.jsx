@@ -11,24 +11,20 @@ const Navbar = () => {
     <nav className='navbar'>
       <div className='navbar-container'>
         <div className='navbar-links'>
-          {location.pathname === '/dashboard' &&  (
+       
             <Link className='navbar-brand' to='/'>
-              iips.Academics
+              Home
             </Link>
-          )}
-          {location.pathname !== '/dashboard' &&  (
-            <Link className='navbar-brand' to='/dashboard'>
-              iips.Academics
-            </Link>
-          )}
+        
+          
           <Link className='navbar-brand' to='/aboutus'>
-            Aboutus
+            About
           </Link>
           <Link className='navbar-brand' to='https://github.com/ashishrair500/iips-academics' target="_blank">
             Github
           </Link>
           <Link className='navbar-brand' to='/our-contributers'>
-            Our Contributers
+            Contributers
           </Link>
         </div>
       </div>
@@ -39,7 +35,7 @@ const Navbar = () => {
             
               <li className='nav-item'>
 
-             
+{/*              
           {location.pathname === '/' &&  (
             <Link className='navbar-brand' to='/dashboard'>
                   Home
@@ -49,43 +45,43 @@ const Navbar = () => {
             <Link className='navbar-brand' to='/'>
                   Home
                 </Link>
-          )}
+          )} */}
                  
-                <img src="../../../../public/assets/home-icon.png" alt="Home" />
+                {/* <img src="../../../../public/assets/home-icon.png" alt="Home" /> */}
               </li>
           
            
-            {location.pathname === '/' && (
+            {/* {location.pathname === '/' && (
               <li className='nav-item'>
-                <button className='logout-btn' onClick={() => dispatch(signOutUser())}>
+                <button className='btn' onClick={() => dispatch(signOutUser())}>
               
                 Logout
                 <img src="../../../public/assets/log-out.png" alt="log out" width="70px" />
       
                 </button>
               </li>
-            )}
-            {location.pathname !== '/' && (
+            )} */}
+        
               <li className='nav-item'>
               <p className='user-welcome'>
                 <span className='user-name'>{user.displayName?.toUpperCase()}</span>
                 <img className='user-icon' src="../../../../public/assets/user-icon.png" alt="Admin" />
               </p>
             </li>
-            )}
+            
           </>
         ) : (
           <>
             <li className='nav-item'>
-              <Link className='login-btn' to='/login'>
+              <Link className='btn' to='/login'>
                 Sign In
-                <img src="../../../public/assets/sign-in_icon.png" alt="Sign In" width="70px" />
+                {/* <img src="../../../public/assets/sign-in_icon.png" alt="Sign In" width="70px" /> */}
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='register-btn' to='/Register'>
+              <Link className='btn' to='/Register'>
                 Sign Up
-                <img src="../../../public/assets/sign-up_icon.jpg" alt="Sign In" width="70px" />
+                {/* <img src="../../../public/assets/sign-up_icon.jpg" alt="Sign In" width="70px" /> */}
               </Link>
             </li>
           </>
