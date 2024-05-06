@@ -83,7 +83,7 @@ const Footer = () => {
                       {/* Add more list items as needed */}
                       <li><a href="#">Programing</a></li>
                       <li><a href="#">Architecture</a></li>
-                      <button className='btn' onClick={() => dispatch(signOutUser())}>
+                      <button className='btnNew' onClick={() => dispatch(signOutUser())}>
               
               Logout
              

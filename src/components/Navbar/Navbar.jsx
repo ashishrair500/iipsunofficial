@@ -9,7 +9,15 @@ const Navbar = () => {
   const dispatch = useDispatch();
   return (
     <nav className='navbar'>
+      <a href="https://www.dauniv.ac.in/" target='_blank' className='footer-text ' style={{ marginLeft: 50 + 'px' }}>
+        <img
+          src="../../../public/assets/favicon.ico"
+          alt="Davv Logo"
+          className='footer-logo'
+        /> IIPS
+      </a>
       <div className='navbar-container'>
+
         <div className='navbar-links'>
 
           <Link className='navbar-brand' to='/'>

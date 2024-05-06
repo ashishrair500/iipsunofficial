@@ -12,10 +12,9 @@ body, html {
 
 }
 /* Adjust padding for content below navbar */
-.content-below-navbar {
-  padding-top: 142px; /* Adjust based on the height of your navbar */
-  z-index: 10000;
-}
+ .main-photo-gap{
+  margin-top: 70px !important;
+ }
 
 .line-break{
   margin-top: 10px;
@@ -27,11 +26,11 @@ body, html {
 }
 .main-img{
   display: flex;
-  /* justify-content: ; */
+  zoom: 1.1;
   align-items: center;
-/* padding: 20px; */
+
   padding: 0% 0% 0% 0% !important;
-  width: 1500px !important;
+  width: 1300px !important;
 }
 .home-container {
   background: #fff;
@@ -139,8 +138,30 @@ body, html {
    padding-left: 100px;
    padding-right: 100px;
 }
+.info{
+  /* font-size: 100px; */
+  margin-top: -475px;
+  margin-right: 300px;
+  margin-bottom: 50px;
+  margin-left: 90px;
+}
+.info h1{
+  /* font-size: 100px; */
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  
+}
 
- 
+.info p{
+  /* font-size: 100px; */
+  color: white;
+  font-size: 25px;
+  padding-top: 20px;
+  margin-right:400px;
+  
+  word-wrap: break-word;
+}
 .grid-container {
     display: grid;
     width: 95%;
@@ -149,7 +170,7 @@ body, html {
     min-height: 1px;
     padding-right: 15px;
     padding-left: 15px;
-    margin-top: -90px ;
+    /* margin-top: -90px ; */
     margin-right: auto;
     margin-left: auto;
 }
@@ -167,7 +188,9 @@ body, html {
   background-color: #f0f0f0; /* Change background color on hover */
   box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Adjust box shadow on hover */
 }
-
+.offering a {
+   text-decoration: none;
+}
 .offering img{
   height:60px;
   width : 60px;
@@ -249,6 +272,50 @@ body, html {
   /* font-family: "Josefin Sans",sans-serif !important; */
   
  }
+
+
+.social-grp-main-container{
+  margin-top: 50px;
+  margin-bottom: 50px;
+}
+
+.social-grp-main-container>h2{
+  color:#3498db !important;
+  margin-top: 40px;
+  margin-bottom: 50px;
+  font-size: 60px !important;
+}
+ .social-grp-content {
+  margin: 30px;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 30px; /* Adjust gap as needed */
+  /* box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5); */
+  border-radius: 20px;
+}
+.social-grp-content>div {
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  background: #fff;
+  transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.social-grp-content>div:hover {
+ 
+  background-color: #f0f0f0; /* Change background color on hover */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.8); /* Adjust box shadow on hover */
+}
+.social-grp-content img {
+  max-width: 100%; /* Ensure images don't exceed their container */
+}
+
+.social-grp-content h3 {
+  color: #4255A4 !important;
+  font-size: 30px;
+  line-height: 1.2;
+  margin-bottom: 10px;
+  font-weight: 700;
+  margin-top: 20px;
+}
 /*.btnNew {
   background: #FF9F67 !important;
   font-family: "Josefin Sans" ,sans-serif;

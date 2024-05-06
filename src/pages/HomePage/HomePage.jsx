@@ -4,8 +4,6 @@ import Navbar from '../../components/Navbar/Navbar';
 import { useSelector } from 'react-redux/es/hooks/useSelector';
 import Footer from '../../components/Footer/Footer';
 import { Link } from 'react-router-dom';
-
-
 import { shallowEqual } from 'react-redux';
 
 
@@ -22,7 +20,16 @@ const HomePage = () => {
       <div>
 
         <Navbar />
-        <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img' />
+        <div className='main-photo-gap'>
+          <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img' />
+        </div>
+      <div className='info'>
+      <h1>Online Learning Platform</h1>
+      <p>gddddddddddddddddddddddddddddddddddddddd</p>
+      <a href="/dashboard" class="btnNew">Join now for Free</a>
+      
+      </div>
+
         <div className='home-container'>
           <div className='home-content'>
 
@@ -63,15 +70,15 @@ const HomePage = () => {
               <div class="offering">
                 <img src="../../../public/assets/icon1.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/dashboard' : '/login'}>
-                  <h3>Explore study </h3>
-                  <p>Explore Some study Materialvgh cghg </p>
+                  <h3>Study Material</h3>
+                  <p>Explore Some study Material . </p>
                 </Link>
               </div>
               <div class="offering">
                 <img src="../../../public/assets/icon2.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/placement' : '/login'}>
                   <h3>Placements</h3>
-                  <p>Explore Placement Materialvgh </p>
+                  <p>Explore Placement Material . </p>
                 </Link>
               </div>
 
@@ -79,14 +86,39 @@ const HomePage = () => {
               <div class="offering">
                 <img src="../../../public/assets/icon3.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/Events' : '/login'}>
-                  <h3>Events in IIPs</h3>
+ 
+                  <h3>Events in IIPS</h3>
                   <p>Click to Contribute</p>
+
                 </Link>
               </div>
 
-
-
             </div>
+
+
+<div  className='social-grp-main-container'>
+
+
+  <h2 >Our Offerings</h2>
+  <div className='social-grp-content'>
+    <div>
+    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+    <h3>Google Cloud</h3>
+    </div>
+
+    <div>
+
+    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+      <h3>AWS</h3>
+    </div>
+    <div>
+    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+      <h3>Azure</h3>
+    </div>
+  </div>
+</div>
+
+
 
 
 
@@ -96,9 +128,11 @@ const HomePage = () => {
                   <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
                 </div>
                 <div class="right-part">
+ 
                   <h2>Take the new step toward your open source journey by connecting with us.</h2>
                   <p>If you're keen on joining us as a developer, just explore our website thoroughly. Think up about new and more features.Share any good ideas you have with us.You are welcome !</p>
                   <a href="#" class="btnNew">Click to Contribute</a>
+
                 </div>
               </div>
             </section>
