@@ -5,12 +5,16 @@
   text-align: center;
   padding: 20px;
 }
+.body{
+  font-family: "Josefin Sans" ,sans-serif !important;
 
+}
 .contributor-heading {
-  color: #ffc107;
+  color: #4255A4;
   font-size: 3em;
   font-weight: bold;
   margin-bottom: 20px;
+  font-family: "Josefin Sans" ,sans-serif !important;
 }
 
 .contributors-table {
@@ -20,31 +24,37 @@
   margin-bottom: 20px;
   border-radius: 40px;
   /* Adjusted gradient for better visibility */
+  font-family: "Josefin Sans" ,sans-serif !important;
 }
 
 .contributors-table th,
 .contributors-table td {
   border: 3px solid #73b9dc; /* Adjusted border color for better contrast */
-  color: #e1f9ed; /* Adjusted text color for better readability */
+  color: #000000; /* Adjusted text color for better readability */
   padding: 10px;
   font-weight: bold;
+  font-family: "Josefin Sans" ,sans-serif !important;
 }
 
 .contributors-table td {
   font-size: 20px;
+  font-family: "Josefin Sans" ,sans-serif !important;
 }
 
 .contributors-table th {
   font-size: 30px;
+  font-family: "Josefin Sans" ,sans-serif !important;
 }
 
 .thank-you-note {
   margin-top: 20px;
-  color: #ffc107;
+  font-family: "Josefin Sans" ,sans-serif !important;
+  color: #4255A4;
 }
 
 .thank-you-note p {
   font-size: 2em;
+  font-family: "Josefin Sans" ,sans-serif !important;
   font-weight: bold;
 }
 

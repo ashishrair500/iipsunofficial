@@ -86,8 +86,10 @@ const HomePage = () => {
               <div class="offering">
                 <img src="../../../public/assets/icon3.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/Events' : '/login'}>
+ 
                   <h3>Events in IIPS</h3>
-                  <p>Join to Explore inner you.</p>
+                  <p>Click to Contribute</p>
+
                 </Link>
               </div>
 
@@ -126,9 +128,11 @@ const HomePage = () => {
                   <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
                 </div>
                 <div class="right-part">
-                  <h2>Take the next step toward your personal and professional goals with us.</h2>
-                  <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-                  <a href="/dashboard" class="btnNew">Join now for Free</a>
+ 
+                  <h2>Take the new step toward your open source journey by connecting with us.</h2>
+                  <p>If you're keen on joining us as a developer, just explore our website thoroughly. Think up about new and more features.Share any good ideas you have with us.You are welcome !</p>
+                  <a href="#" class="btnNew">Click to Contribute</a>
+
                 </div>
               </div>
             </section>
