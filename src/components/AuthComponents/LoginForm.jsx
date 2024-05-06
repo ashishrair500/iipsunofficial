@@ -49,7 +49,7 @@ React.useEffect(()=>{
                  onChange={(e)=> setPassword(e.target.value)}
             />
         </div>
-      <button type="submit" className='glow-on-hover'>Login</button>
+      <button type="submit" className='btnNew'>Login</button>
     </form>
   )
 }

@@ -33,21 +33,23 @@ const Register = () => {
 
 
   return (
-    <div className='register-container'>
-      <div className='register-content'>
-        <h1 className='register-heading'>Welcome</h1>
-        <div>
-      <button type='button' onClick={handleGoogleSignIn} className='google-signup-btn'>
-      <span className='google-icon'>
-      <img  src="https://www.google.com/images/branding/googlelogo/1x/googlelogo_color_272x92dp.png"
-             alt="Google Logo"/>
-      </span>
-              Sign Up with Google
-    </button>
-      
-        </div>
+    <div className='login-container'>
+    <div className='login-content'>
+      <h1 className='login-heading'>Register</h1>
+
+
+      <div>
+        <button type='button' onClick={handleGoogleSignIn} className='google-signin-btn'>
+          <span className='google-icon'>
+            <img src="../../../../public/assets/googlelogo.jpeg"
+              alt="Google Logo" />
+          </span>
+          Sign Up with Google
+        </button>
       </div>
     </div>
+  </div>
+
   );
 };
 
