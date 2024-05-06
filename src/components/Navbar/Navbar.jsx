@@ -9,14 +9,22 @@ const Navbar = () => {
   const dispatch = useDispatch();
   return (
     <nav className='navbar'>
+      <a href="https://www.dauniv.ac.in/" target='_blank' className='footer-text ' style={{ marginLeft: 50 + 'px' }}>
+        <img
+          src="../../../public/assets/favicon.ico"
+          alt="Davv Logo"
+          className='footer-logo'
+        /> IIPS
+      </a>
       <div className='navbar-container'>
+
         <div className='navbar-links'>
-       
-            <Link className='navbar-brand' to='/'>
-              Home
-            </Link>
-        
-          
+
+          <Link className='navbar-brand' to='/'>
+            Home
+          </Link>
+
+
           <Link className='navbar-brand' to='/aboutus'>
             About
           </Link>
@@ -32,10 +40,10 @@ const Navbar = () => {
         {isAuthenticated ? (
           <>
 
-            
-              <li className='nav-item'>
 
-{/*              
+            <li className='nav-item'>
+
+              {/*              
           {location.pathname === '/' &&  (
             <Link className='navbar-brand' to='/dashboard'>
                   Home
@@ -46,11 +54,11 @@ const Navbar = () => {
                   Home
                 </Link>
           )} */}
-                 
-                {/* <img src="../../../../public/assets/home-icon.png" alt="Home" /> */}
-              </li>
-          
-           
+
+              {/* <img src="../../../../public/assets/home-icon.png" alt="Home" /> */}
+            </li>
+
+
             {/* {location.pathname === '/' && (
               <li className='nav-item'>
                 <button className='btnNewNew' onClick={() => dispatch(signOutUser())}>
@@ -61,14 +69,14 @@ const Navbar = () => {
                 </button>
               </li>
             )} */}
-        
-              <li className='nav-item'>
+
+            <li className='nav-item'>
               <p className='user-welcome'>
                 <span className='user-name'>{user.displayName?.toUpperCase()}</span>
                 <img className='user-icon' src="../../../../public/assets/user-icon.png" alt="Admin" />
               </p>
             </li>
-            
+
           </>
         ) : (
           <>

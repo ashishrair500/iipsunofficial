@@ -68,10 +68,16 @@ const DashboardPage = () => {
 
      
       <Navbar />
-      {/* <div class="content-below-navbar">
+      <div class="content-below-navbar">
   
-</div> */}
-      <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
+</div>
+     <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
+     <div className='info2'>
+      <h1>Our Courses</h1>
+      <p>Home | Services</p>
+      
+      
+      </div>
       
       {/* <a href="https://forms.gle/v6PXeXPVk3W57sgt5" target="_blank" className='contribute-button'>
       अपने Study Material को साझा करने के लिए click करें !</a>

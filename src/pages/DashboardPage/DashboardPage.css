@@ -11,6 +11,7 @@
   padding-top: 102px; /* Adjust based on the height of your navbar */
 }
 
+ 
 .main-img{
   z-index: 10000;
 }
@@ -68,4 +69,29 @@ a.contribute-button:hover {
   100% {
     color: white;
   }
+}
+
+.info2{
+  /* font-size: 100px; */
+  margin-top: -200px;
+  margin-right: 300px;
+  /* margin-bottom: 150px; */
+  margin-left: 70px;
+}
+.info2 h1{
+  /* font-size: 100px; */
+  color: white;
+  font-size: 70px;
+  font-weight: bold;
+  
+}
+
+.info2 p{
+  /* font-size: 100px; */
+  color: white;
+  font-size: 20px;
+  padding-top: 20px;
+ padding-left: 10px;
+  
+  word-wrap: break-word;
 }
