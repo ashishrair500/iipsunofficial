@@ -23,12 +23,12 @@ const HomePage = () => {
         <div className='main-photo-gap'>
           <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img' />
         </div>
-      <div className='info'>
-      <h1>Online Learning Platform</h1>
-      <p>gddddddddddddddddddddddddddddddddddddddd</p>
-      <a href="/dashboard" class="btnNew">Join now for Free</a>
-      
-      </div>
+        <div className='info'>
+          <h1>Online Learning Platform</h1>
+          <p>Lorem ipsum dolor sit, cidunt  </p>
+          <a href="/dashboard" class="btnNew">Join now for Free</a>
+
+        </div>
 
         <div className='home-container'>
           <div className='home-content'>
@@ -86,7 +86,7 @@ const HomePage = () => {
               <div class="offering">
                 <img src="../../../public/assets/icon3.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/Events' : '/login'}>
- 
+
                   <h3>Events in IIPS</h3>
                   <p>Click to Contribute</p>
 
@@ -96,27 +96,145 @@ const HomePage = () => {
             </div>
 
 
-<div  className='social-grp-main-container'>
+            {/* <div className='social-grp-main-container'>
 
 
-  <h2 >Our Offerings</h2>
-  <div className='social-grp-content'>
-    <div>
-    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-    <h3>Google Cloud</h3>
-    </div>
+              <h2 >Our Offerings</h2>
+              <div className='social-grp-content'>
+                <div>
+                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+                  <h3>Google Cloud</h3>
+                </div>
 
-    <div>
+                <div>
 
-    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-      <h3>AWS</h3>
-    </div>
-    <div>
-    <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-      <h3>Azure</h3>
-    </div>
-  </div>
-</div>
+                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+                  <h3>AWS</h3>
+                </div>
+                <div>
+                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
+                  <h3>Azure</h3>
+                </div>
+              </div>
+            </div>
+
+ */}
+
+
+            <div className="courses-area section-padding40 fix">
+              <div className="container">
+                <div className="row justify-content-center">
+                  <div className="col-xl-7 col-lg-8">
+                    <div className="section-tittle text-center mb-55">
+                      <h2 className='h2margin'>Our featured courses</h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="course-area-container">
+
+                  <div className="properties pb-20">
+                    <div className="properties__card">
+                      <div className="properties__img overlay1">
+                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                      </div>
+                      <div className="properties__caption">
+                        <p className='courseareap'>User Experience</p>
+                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="properties pb-20">
+                    <div className="properties__card">
+                      <div className="properties__img overlay1">
+                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                      </div>
+                      <div className="properties__caption">
+                        <p className='courseareap'>User Experience</p>
+                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                  
+                      
+                     
+                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="properties pb-20">
+                    <div className="properties__card">
+                      <div className="properties__img overlay1">
+                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                      </div>
+                      <div className="properties__caption">
+                        <p className='courseareap'>User Experience</p>
+                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+      
+                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                      </div>
+                    </div>
+                  </div>
+
+                  {/* Repeat similar structures for other courses */}
+                </div>
+              </div>
+            </div>
+
+
+
+
+
+
+
+
+
+
+
+
+
+            <section className="about-area3 fix">
+              <div className="support-wrapper align-items-center">
+                <div className="right-content3">
+                  <div className="right-img">
+                    <img src="../../../public/assets/about3.png" alt="" />
+                  </div>
+                </div>
+                <div className="left-content3">
+                  <div className="section-tittle section-tittle2 mb-20">
+                    <div className="front-text">
+                      <h2 className="h2area3">Learner outcomes on courses you will take</h2>
+                    </div>
+                  </div>
+                  <div className="single-features">
+                    <div className="features-icon">
+                      <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
+                    </div>
+                    <div className="features-caption">
+                      <p className='parea3'>Techniques to engage effectively with vulnerable children and young people.</p>
+                    </div>
+                  </div>
+                  <div className="single-features">
+                    <div className="features-icon">
+                      <img src="../../../public/assets/icon/right-icon.svg" alt="" />
+                    </div>
+                    <div className="features-caption">
+                      <p className='parea3'>Join millions of people from around the world learning together.</p>
+                    </div>
+                  </div>
+                  <div className="single-features">
+                    <div className="features-icon">
+                      <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
+                    </div>
+                    <div className="features-caption">
+                      <p className='parea3'>Join millions of people from around the world learning together.
+                        Online learning is as easy and natural.</p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </section>
+
 
 
 
@@ -128,7 +246,7 @@ const HomePage = () => {
                   <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
                 </div>
                 <div class="right-part">
- 
+
                   <h2>Take the new step toward your open source journey by connecting with us.</h2>
                   <p>If you're keen on joining us as a developer, just explore our website thoroughly. Think up about new and more features.Share any good ideas you have with us.You are welcome !</p>
                   <a href="#" class="btnNew">Click to Contribute</a>
