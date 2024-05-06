@@ -129,7 +129,7 @@ const CreateFile = ({setIsCreateFileOpen}) => {
 
              
         </div>
-            <button type='submit' className='btn btn-primary mt-5 form-control'>
+            <button type='submit' className='btnNew btn-primary mt-5 form-control'>
                 Create File
             </button>
         </form>

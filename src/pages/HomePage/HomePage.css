@@ -248,10 +248,10 @@ body, html {
   margin-bottom: 30px;
   /* font-family: "Josefin Sans",sans-serif !important; */
   
-}
-.btn {
+ }
+/*.btnNew {
   background: #FF9F67 !important;
-  font-family: "Josefin Sans",sans-serif;
+  font-family: "Josefin Sans" ,sans-serif;
   text-transform: capitalize;
   padding: 20px 30px !important;
   color: #fff;
@@ -276,7 +276,7 @@ body, html {
   display: inline-block !important
 }
 
-.btn::before {
+.btnNew::before {
   content: "";
   position: absolute;
   left: 0;
@@ -294,15 +294,15 @@ body, html {
   border-radius: 0px
 }
 
-.btn:hover {
+.btnNew:hover {
   background-position: right
 }
 
-.btn:hover::before {
+.btnNew:hover::before {
   transform: scaleX(1);
   color: #fff !important;
   z-index: -1
-}
+} */
 
 .carousel {
   margin-top: 57px;

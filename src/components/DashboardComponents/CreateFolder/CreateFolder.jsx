@@ -7,7 +7,7 @@ import { shallowEqual, useSelector, useDispatch } from 'react-redux';
 import { createFolder } from '../../../redux/actionCreators/fileFoldersActionCreator';
 import { toast } from 'react-toastify';
 import './CreateFolder.css';
-
+import '../../../index.css'
 const CreateFolder = ({ setIsCreateFolderOpen }) => {
   const [folderName, setFolderName] = useState('');
 
@@ -93,7 +93,7 @@ const CreateFolder = ({ setIsCreateFolderOpen }) => {
                   onChange={(e) => setFolderName(e.target.value)}
                 />
               </div>
-              <button type='submit' className='btn btn-primary mt-5 create-folder-submit-btn'>
+              <button type='submit' className='btnNew'>
                 Create Folder
               </button>
             </form>

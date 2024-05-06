@@ -53,7 +53,7 @@ const Navbar = () => {
            
             {/* {location.pathname === '/' && (
               <li className='nav-item'>
-                <button className='btn' onClick={() => dispatch(signOutUser())}>
+                <button className='btnNewNew' onClick={() => dispatch(signOutUser())}>
               
                 Logout
                 <img src="../../../public/assets/log-out.png" alt="log out" width="70px" />
@@ -73,13 +73,13 @@ const Navbar = () => {
         ) : (
           <>
             <li className='nav-item'>
-              <Link className='btn' to='/login'>
+              <Link className='btnNew' to='/login'>
                 Sign In
                 {/* <img src="../../../public/assets/sign-in_icon.png" alt="Sign In" width="70px" /> */}
               </Link>
             </li>
             <li className='nav-item'>
-              <Link className='btn' to='/Register'>
+              <Link className='btnNew' to='/Register'>
                 Sign Up
                 {/* <img src="../../../public/assets/sign-up_icon.jpg" alt="Sign In" width="70px" /> */}
               </Link>

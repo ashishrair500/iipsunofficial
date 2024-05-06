@@ -98,7 +98,7 @@ const HomePage = () => {
                 <div class="right-part">
                   <h2>Take the next step toward your personal and professional goals with us.</h2>
                   <p>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-                  <a href="#" class="btn">Join now for Free</a>
+                  <a href="#" class="btnNew">Join now for Free</a>
                 </div>
               </div>
             </section>

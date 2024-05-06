@@ -77,7 +77,7 @@ const Subbar = ({
               
                 <li className="nav-item mx-2">
                   <button
-                    className="btn btn-outline-dark"
+                    className="btnNew btnNew-outline-dark"
                     onClick={() => setIsFileUploadOpen(true)}
                   >
                     <FontAwesomeIcon icon={faFileUpload} /> &nbsp; Upload File
@@ -85,7 +85,7 @@ const Subbar = ({
                 </li>
                 <li className="nav-item ms-2">
                   <button
-                    className="btn btn-outline-dark"
+                    className="btnNew"
                     onClick={() => setIsCreateFolderOpen(true)}
                   >
                     <FontAwesomeIcon icon={faFolderPlus} /> &nbsp; Create Folder

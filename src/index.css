@@ -1,0 +1,55 @@
+
+.btnNew {
+    background: #FF9F67 !important;
+    font-family: "Josefin Sans" ,sans-serif !important;
+    text-transform: capitalize;
+    padding: 20px 30px !important;
+    color: #fff;
+    cursor: pointer;
+    display: inline-blockc !important;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 5px;
+    line-height: 1;
+    -moz-user-select: none;
+    user-select: none;
+    letter-spacing: 1px;
+    line-height: 0;
+    margin-bottom: 0;
+    cursor: pointer;
+    transition: color 0.4s linear;
+    position: relative;
+    z-index: 1;
+    border: 0;
+    overflow: hidden;
+    margin: 0;
+    display: inline-block !important
+  }
+  
+  .btnNew::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 101%;
+    height: 101%;
+    background: #AE59FF;
+    z-index: 1;
+    border-radius: 5px;
+    transition: transform 0.5s;
+    transition-timing-function: ease;
+    transform-origin: 0 0;
+    transition-timing-function: cubic-bezier(0.5, 1.6, 0.4, 0.7);
+    transform: scaleX(0);
+    border-radius: 0px
+  }
+  
+  .btnNew:hover {
+    background-position: right
+  }
+  
+  .btnNew:hover::before {
+    transform: scaleX(1);
+    color: #fff !important;
+    z-index: -1
+  } 
