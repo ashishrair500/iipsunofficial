@@ -72,16 +72,16 @@ a.contribute-button:hover {
 }
 
 .info2{
-  /* font-size: 100px; */
-  margin-top: -200px;
+  margin-top: -170px;
   margin-right: 300px;
   /* margin-bottom: 150px; */
-  margin-left: 70px;
+  margin-left: 40px;
+  margin-bottom: 100px;
 }
 .info2 h1{
   /* font-size: 100px; */
   color: white;
-  font-size: 70px;
+  font-size: 50px;
   font-weight: bold;
   
 }

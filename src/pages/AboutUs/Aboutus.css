@@ -12,17 +12,23 @@
 h2 {
   color: rgb(0, 0, 0) !important;
   font-size: 50px !important;
+  padding:20px
 }
 
 .team-members {
   display: flex;
   justify-content: space-around;
-  border: 1px  solid black;
+  /* border: 1px  solid black; */
   flex-wrap: wrap; /* Allow team members to wrap to the next line on smaller screens */
   margin-left: 100px;
   margin-right: 100px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transition: background-color 0.3s, box-shadow 0.3s; 
 }
-
+.team-members:hover{
+  background-color: #f0f0f0; /* Change background color on hover */
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.5); /* Adjust box shadow on hover */
+}
 .team-member {
   flex: 1;
   margin: 20px;

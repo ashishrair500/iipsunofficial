@@ -51,8 +51,19 @@ const Contributer = () => {
   return (
     <div>
       <Navbar />
+      <div class="content-below-navbar">
+  
+  </div>
+       <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
+       <div className='info2'>
+        <h1>Top Contributers</h1>
+        <p>Home | Contributer</p>
+        
+        
+        </div>
+        
       <div className="contributor-page">
-        <h1 className="contributor-heading">Top Contributors</h1>
+        {/* <h1 className="contributor-heading">Top Contributors</h1> */}
         <table className="contributors-table">
           <thead>
             <tr>

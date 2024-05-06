@@ -4,6 +4,7 @@ import firebase from 'firebase/compat/app';
 import 'firebase/compat/auth';
 import './Register.css'; // Import your styles
 import { toast } from 'react-toastify';
+import Navbar from '../../../components/Navbar/Navbar';
 
 const Register = () => {
 
@@ -33,6 +34,8 @@ const Register = () => {
 
 
   return (
+    <>
+    <Navbar/>
     <div className='login-container'>
     <div className='login-content'>
       <h1 className='login-heading'>Register</h1>
@@ -49,7 +52,7 @@ const Register = () => {
       </div>
     </div>
   </div>
-
+</>
   );
 };
 

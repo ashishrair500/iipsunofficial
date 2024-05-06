@@ -73,8 +73,8 @@ const DashboardPage = () => {
 </div>
      <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
      <div className='info2'>
-      <h1>Our Courses</h1>
-      <p>Home | Services</p>
+      <h1>Study Material</h1>
+      <p>Home | Subjects</p>
       
       
       </div>
@@ -108,8 +108,10 @@ const DashboardPage = () => {
         <Route path="file/:fileId" element={<FileComponent />} />
         <Route path="file/:fileId/deletefile" element={<FileComponentDelete />} />
       </Routes>
-
-      <Footer />
+<div    style={{marginTop:70 +"px"}}>
+<Footer />
+</div>
+     
 
      
     </div>
