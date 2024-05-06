@@ -5,6 +5,7 @@ import 'firebase/compat/auth';
 import LoginForm from '../../../components/AuthComponents/LoginForm';
 import { toast } from 'react-toastify';
 import './Login.css'; // Import your styles
+import Navbar from '../../../components/Navbar/Navbar';
 const LoginPage = () => {
   const [success, setSuccess] = React.useState(false);
   const navigate = useNavigate();
@@ -33,6 +34,8 @@ const LoginPage = () => {
 
 
   return (
+    <>
+    <Navbar/>
     <div className='login-container'>
       <div className='login-content'>
         <h1 className='login-heading'>Login</h1>
@@ -54,7 +57,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
-
+</>
   );
 };
 

@@ -18,7 +18,7 @@ body, html {
   display: flex;
   justify-content: center;
   align-items: center;
-  
+  margin-top: 100px;
 }
 
 .login-content {
@@ -26,6 +26,7 @@ body, html {
   max-width: 300px; /* Set a maximum width for the content */
   width: 90%; /* Adjust the width as needed */
   /* border: 1px solid black; */
+  
  
 }
 
@@ -80,7 +81,7 @@ div>h6{
 }
 
 .google-signin-btn:hover {
-  background-color: rgb(254, 250, 4); /* Darker Google Blue on hover */
+  background-color: rgb(148, 170, 255) !important; /* Darker Google Blue on hover */
 }
 
 .google-icon>img {
