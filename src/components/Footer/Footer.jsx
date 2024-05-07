@@ -28,7 +28,7 @@ const Footer = () => {
                    
                     <div className="footer-tittle">
                       <div className="footer-pera">
-                        <p>The automated process starts as soon as your clothes go into the machine.</p>
+                        <p>Welcome to International Institute of Professional Studies</p>
                       </div>
                     </div>
                     <div className="footer-social">
