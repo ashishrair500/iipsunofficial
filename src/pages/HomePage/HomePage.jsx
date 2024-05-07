@@ -25,7 +25,11 @@ const HomePage = () => {
         </div>
         <div className='info'>
           <h1>Online Learning Platform</h1>
+<<<<<<< Updated upstream
           <p>Lorem ipsum dolor sit, cidunt  </p>
+=======
+          <p>gddddddddddddddddddddddddddddddddddddddd</p>
+>>>>>>> Stashed changes
           <a href="/dashboard" class="btnNew">Join now for Free</a>
 
         </div>
@@ -96,6 +100,12 @@ const HomePage = () => {
             </div>
 
 
+<<<<<<< Updated upstream
+=======
+        
+
+ 
+>>>>>>> Stashed changes
 
             <div className="courses-area section-padding40 fix">
               <div className="container">

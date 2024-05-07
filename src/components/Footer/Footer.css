@@ -1,17 +1,12 @@
-body, html {
-  font-family: 'Mulish', sans-serif;
+body,
+html {
+  font-family: "Mulish", sans-serif;
 }
 
-
-
-
-
-.footer-wrappper{
+.footer-wrappper {
   background: hsl(262, 52%, 47%);
   padding-top: 3px;
   padding-bottom: 13px;
-  
-
 }
 .footer-area .footer-pera p {
   color: #fff;
@@ -19,16 +14,12 @@ body, html {
   font-size: 16px;
   margin-top: 20px;
   margin-bottom: 50px;
-  line-height: 1.8
-}
-.footer-padding{
-  padding-top: 100px;
-  padding-bottom: 13px;
+  line-height: 1.8;
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
   .footer-area .footer-pera p {
-      padding-right:0px
+    padding-right: 0px;
   }
 }
 
@@ -54,10 +45,10 @@ body, html {
   font-weight: 400;
   font-size: 16px;
   text-decoration: underline transparent;
-  -webkit-transition: .2s;
-  -moz-transition: .2s;
-  -o-transition: .2s;
-  transition: .2s;
+  -webkit-transition: 0.2s;
+  -moz-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
   text-align: left; /* Adjusted alignment */
 }
 
@@ -69,7 +60,7 @@ body, html {
   color: #fff;
   font-size: 23px;
   font-weight: bold;
-  
+
   text-decoration: none;
 }
 .footer-logo {
@@ -79,11 +70,11 @@ body, html {
 }
 
 .footer-area .info.error {
-  color: #C86FFF
+  color: #c86fff;
 }
 
 .footer-bottom-area .footer-border {
-  padding: 33px 0px 20px
+  padding: 33px 0px 20px;
 }
 
 .footer-bottom-area .footer-copy-right p {
@@ -91,15 +82,15 @@ body, html {
   font-weight: 400;
   font-size: 18px;
   line-height: 2;
-  margin-bottom: 12px
+  margin-bottom: 12px;
 }
 
 .footer-bottom-area .footer-copy-right p i {
-  color: #C86FFF
+  color: #c86fff;
 }
 
 .footer-social a {
-  background: rgba(128,136,255,0.1);
+  background: rgba(128, 136, 255, 0.1);
   color: #fff;
   width: 40px;
   height: 40px;
@@ -108,18 +99,18 @@ body, html {
   line-height: 40px;
   display: inline-block;
   text-align: center;
-  margin-right: 8px
+  margin-right: 8px;
 }
 
 .footer-social a:hover {
   color: #fff;
-  background: #C86FFF
+  background: #c86fff;
 }
 
 .footer-social a i {
-  display: inline-block
+  display: inline-block;
 }
 
 .footer-bg {
-  background : #673ab7;
+  background: #673ab7;
 }
