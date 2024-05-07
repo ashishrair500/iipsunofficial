@@ -25,11 +25,7 @@ const HomePage = () => {
         </div>
         <div className='info'>
           <h1>Online Learning Platform</h1>
-<<<<<<< Updated upstream
           <p>Lorem ipsum dolor sit, cidunt  </p>
-=======
-          <p>gddddddddddddddddddddddddddddddddddddddd</p>
->>>>>>> Stashed changes
           <a href="/dashboard" class="btnNew">Join now for Free</a>
 
         </div>
@@ -99,35 +95,6 @@ const HomePage = () => {
 
             </div>
 
-
-<<<<<<< Updated upstream
-            {/* <div className='social-grp-main-container'>
-=======
-            <div className='social-grp-main-container'>
->>>>>>> Stashed changes
-
-
-              <h2 >Our Offerings</h2>
-              <div className='social-grp-content'>
-                <div>
-                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-                  <h3>Google Cloud</h3>
-                </div>
-
-                <div>
-<<<<<<< Updated upstream
-
-                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-                  <h3>AWS</h3>
-                </div>
-                <div>
-                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-                  <h3>Azure</h3>
-                </div>
-              </div>
-            </div>
-
- */}
 
 
             <div className="courses-area section-padding40 fix">
@@ -244,18 +211,6 @@ const HomePage = () => {
               </div>
             </section>
 
-=======
-
-                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-                  <h3>AWS</h3>
-                </div>
-                <div>
-                  <img src="../../../public/assets/about2.png" alt="IIPS Logo" />
-                  <h3>Azure</h3>
-                </div>
-              </div>
-            </div>
->>>>>>> Stashed changes
 
 
 
