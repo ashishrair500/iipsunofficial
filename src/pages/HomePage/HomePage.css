@@ -243,10 +243,10 @@ body, html {
 }
 
 .left-part img {
-  padding-left: 60px;
+  padding-left: 25px;
   max-width: 100%;
   width: auto;
-  height: 400px;
+  height: 450px;
 }
 
 .right-part {
@@ -270,7 +270,7 @@ body, html {
   font-size: 42px !important;
   font-weight: 600;
   line-height: 1.3;
-  margin-bottom: 30px;
+  margin-bottom: 5px;
   /* font-family: "Josefin Sans",sans-serif !important; */
   
  }
@@ -498,17 +498,19 @@ body, html {
 }
 .h2margin{
   margin-bottom: 50px;
+  font-family: "Josefin Sans",sans-serif !important;
+  color: #4255A4 !important;
 }
 .course-area-container{
   
-  padding-left: 15px;
-  padding-right: 15px;
+  padding-left: 0px;
+  padding-right: 0px;
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px !important;
+  max-width: 1500px !important;
   display: grid;
   grid-template-columns: repeat(3,1fr);
-  gap: 30px;
+  gap: 0x;
 }
 
 .courseareap{
@@ -527,7 +529,10 @@ body, html {
   margin-top: 0px;
   font-style: normal;
   font-weight: 400;
-  text-transform: normal
+  text-transform: normal;
+  align-items: flex-start;
+  display: flex;
+  flex-wrap: wrap;
   
 }
 
@@ -558,61 +563,61 @@ body, html {
   position: relative
 }
 
-.courses-area .properties__caption {
+.courses-area .properties-caption {
   padding: 29px 20px 20px 20px;
   align-items: flex-start;
   display: flex;
   flex-wrap: wrap;
 }
- .properties__caption {
+ .properties-caption {
   align-items: flex-start !important;
   display: flex !important;
   flex-wrap: wrap !important;
 }
- .properties__caption>h3 {
+ .properties-caption>h3 {
   align-items: flex-start !important;
   display: flex !important;
   flex-wrap: wrap !important;
 }
- .properties__caption {
+ .properties-caption {
   align-items: flex-start !important;
   display: flex !important;
   flex-wrap: wrap !important;
 }
 
 
-.courses-area .properties__caption h3 {
+.courses-area .properties-caption h3 {
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 6px
 }
 
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
-  .courses-area .properties__caption h3 {
+  .courses-area .properties-caption h3 {
       font-size:16px
   }
 }
 
-.courses-area .properties__caption h3 a {
+.courses-area .properties-caption h3 a {
   text-decoration: underline transparent
 }
 
-.courses-area .properties__caption h3 a:hover {
+.courses-area .properties-caption h3 a:hover {
   text-decoration: underline;
   color: #4255A4
 }
 
-.courses-area .properties__caption P {
+.courses-area .properties-caption P {
   color: #6E7697
 }
 
-.courses-area .properties__caption P span {
+.courses-area .properties-caption P span {
   color: #C86FFF;
   font-size: 16px
 }
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-  .courses-area .properties__caption P span {
+  .courses-area .properties-caption P span {
       font-size:12px
   }
 }

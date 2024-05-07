@@ -1,0 +1,127 @@
+team-area .single-cat {
+    margin: 0 15px;
+    -webkit-transition: .4s;
+    -moz-transition: .4s;
+    -o-transition: .4s;
+    transition: .4s;
+    z-index: 1
+}
+.team-container{
+    display: flex;
+    
+}
+.team-area .single-cat .cat-icon img {
+    margin: 0 auto;
+    margin-bottom: 30px
+}
+
+.team-area .single-cat .cat-cap span {
+    color: #6785FF;
+    font-size: 46px;
+    font-weight: 600;
+    margin-bottom: 10px;
+    display: block
+}
+
+.team-area .single-cat .cat-cap h5>a {
+    font-size: 24px;
+    font-weight: 600;
+    margin-bottom: 14px;
+    display: block;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    text-transform: capitalize;
+    color: #4255A4
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .team-area .single-cat .cat-cap h5>a {
+        font-size:21px
+    }
+}
+
+@media (max-width: 575px) {
+    .team-area .single-cat .cat-cap h5>a {
+        font-size:23px
+    }
+}
+
+.team-area .single-cat .cat-cap p {
+    color: #57667e;
+    font-size: 16px;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s;
+    margin: 0
+}
+
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    .team-area .single-cat .cat-cap p {
+        font-size:15px
+    }
+}
+
+.team-area .single-cat .cat-cap a {
+    color: #1c165c;
+    font-size: 16px;
+    font-weight: 600;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s
+}
+
+.team-area .single-cat:hover .cat-cap h5 {
+    color: #000
+}
+
+.team-active button.slick-arrow {
+    position: absolute;
+    border: 0;
+    padding: 0;
+    z-index: 2;
+    cursor: pointer;
+    top: 50%;
+    transform: translateY(-50%);
+    left: auto;
+    background: none
+}
+.teamh{
+    color: #4255A4 !important;
+    margin-top: 50px;
+}
+.team-active{
+    display: flex;
+    align-items: flex-start;
+}
+.team-active button.slick-arrow i {
+    font-size: 20px;
+    color: #C86FFF;
+    -webkit-transition: .2s;
+    -moz-transition: .2s;
+    -o-transition: .2s;
+    transition: .2s
+}
+
+.team-active button.slick-arrow i:hover {
+    color: #4255A4
+}
+
+.team-active button.slick-prev {
+    left: -58px
+}
+
+.team-active button.slick-prev i {
+    color: #ddd
+}
+
+.team-active button.slick-next {
+    right: -58px
+}
+
+.team-active button.slick-next i {
+    color: #ddd
+}

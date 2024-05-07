@@ -11,28 +11,32 @@
   }
   
   .items-container {
+    margin-top: 50px;
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
   }
   
   .show-item {
-    flex-basis: calc(25% - 20px); /* 20% to fit 5 items horizontally */
-    margin: 10px;
-    padding: 10px;
+   
+    flex-basis: calc(19% - 20px); /* 20% to fit 5 items horizontally */
+    margin-top: 4px;
+    padding: 0px;
+    font-size: 15px;
     text-align: center;
     cursor: pointer;
-    transition: transform 0.3s, box-shadow 0.3s;
+    transition: transform 0.3s, background-color 0.3s;
   }
   
   .show-item:hover {
     transform: scale(1.1); /* Grow on hover */
-    box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Glow on hover */
+    background-color:  rgba(123, 123, 235, 0.121); /* Glow on hover */
+    
   }
   
   .show-item img {
-    width: 120px; /* Increase the icon size */
-    height: 120px;
+    width: 100px; /* Increase the icon size */
+    height: 100px;
   }
   
    
@@ -43,6 +47,12 @@
     color: black; /* Set the text color */
     margin-top: 10px; /* Add margin for better spacing */
     font-size: 1em; /* Set the font size for folder names */
+    
+  
+  }
+  .show-item span:hover {
+    
+    color: blue;
     
   
   }

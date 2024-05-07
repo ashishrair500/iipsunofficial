@@ -102,7 +102,7 @@ const HomePage = () => {
                 <div className="row justify-content-center">
                   <div className="col-xl-7 col-lg-8">
                     <div className="section-tittle text-center mb-55">
-                      <h2 className='h2margin'>Our featured courses</h2>
+                      <h2 className='h2margin'>IIPS Academic Clubs</h2>
                     </div>
                   </div>
                 </div>
@@ -111,12 +111,12 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
                       </div>
-                      <div className="properties__caption">
+                      <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
-                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                        <h3 style={{textAlign: 'left'}} ><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
                         <a href="#" className="border-btn border-btn2">Find out more</a>
                       </div>
                     </div>
@@ -124,12 +124,12 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
                       </div>
-                      <div className="properties__caption">
+                      <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
-                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                        <h3  style={{textAlign: 'left'}}><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
                   
                       
                      
@@ -140,12 +140,12 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.png" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
                       </div>
-                      <div className="properties__caption">
+                      <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
-                        <h3 className='courseareah'><a href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap'>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
+                        <h3  style={{textAlign: 'left'}}><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
+                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
       
                         <a href="#" className="border-btn border-btn2">Find out more</a>
                       </div>
