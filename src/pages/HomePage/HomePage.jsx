@@ -25,11 +25,7 @@ const HomePage = () => {
         </div>
         <div className='info'>
           <h1>Online Learning Platform</h1>
-<<<<<<< Updated upstream
-          <p>Lorem ipsum dolor sit, cidunt  </p>
-=======
           <p>gddddddddddddddddddddddddddddddddddddddd</p>
->>>>>>> Stashed changes
           <a href="/dashboard" class="btnNew">Join now for Free</a>
 
         </div>
@@ -100,12 +96,9 @@ const HomePage = () => {
             </div>
 
 
-<<<<<<< Updated upstream
-=======
         
 
  
->>>>>>> Stashed changes
 
             <div className="courses-area section-padding40 fix">
               <div className="container">
@@ -121,7 +114,7 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
@@ -134,7 +127,7 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
@@ -150,7 +143,7 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>

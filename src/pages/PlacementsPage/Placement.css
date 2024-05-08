@@ -96,6 +96,7 @@ team-area .single-cat {
 .team-active{
     display: flex;
     align-items: flex-start;
+    justify-content: space-around;
 }
 .team-active button.slick-arrow i {
     font-size: 20px;
@@ -125,3 +126,48 @@ team-area .single-cat {
 .team-active button.slick-next i {
     color: #ddd
 }
+
+
+.placement-page {
+    text-align: center;
+    padding: 20px;
+    margin-top: 50px;
+  }
+  
+  .placement-heading {
+    color: #4255A4;
+    font-size: 3em;
+    font-weight: bold;
+    margin-bottom: 50px;
+    font-family: "Josefin Sans" ,sans-serif !important;
+  }
+  
+  .placement-table {
+    width: 80%;
+    margin: auto;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+    border-radius: 40px;
+    /* Adjusted gradient for better visibility */
+    font-family: "Josefin Sans" ,sans-serif !important;
+  }
+  
+  .placement-table th,
+  .placement-table td {
+    border: 3px solid #b172ff;  
+    color: #4255A4; /* Adjusted text color for better readability */
+    padding: 10px;
+    font-weight: bold;
+    font-family: "Josefin Sans" ,sans-serif !important;
+  }
+  
+  .placement-table td {
+    font-size: 25px;
+    font-family: "Josefin Sans" ,sans-serif !important;
+  }
+  
+  .placement-table th {
+    font-size: 30px;
+    font-family: "Josefin Sans" ,sans-serif !important;
+  }
+  
