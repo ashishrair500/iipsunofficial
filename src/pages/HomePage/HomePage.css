@@ -14,7 +14,7 @@ body, html {
 
 /* Adjust padding for content below navbar */
  .main-photo-gap{
-  margin-top: 70px !important;
+  margin-top: 101px !important;
  }
 
 .line-break{
@@ -27,11 +27,11 @@ body, html {
 }
 .main-img{
   display: flex;
-  zoom: 1.1;
+  zoom: 1.2;
   align-items: center;
 
   padding: 0% 0% 0% 0% !important;
-  width: 1300px !important;
+  width: 100%;
 }
 .home-container {
   background: #fff;
@@ -141,7 +141,7 @@ body, html {
 }
 .info{
   /* font-size: 100px; */
-  margin-top: -475px;
+  margin-top: -500px;
   margin-right: 350px;
   margin-bottom: 70px;
   margin-left: 90px;
@@ -149,7 +149,7 @@ body, html {
 .info h1{
   /* font-size: 100px; */
   color: white;
-  font-size: 70px;
+  font-size: 60px;
   font-weight: bold;
   word-wrap: break-word;
   

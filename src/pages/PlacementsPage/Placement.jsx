@@ -60,7 +60,7 @@ const Placement = () => {
       </div>
       <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img' />
       <div className='info2'>
-        <h1>Placement</h1>
+        <h1>Placement 2023-24 </h1>
         <p>Home | Placement</p>
 
 
@@ -71,14 +71,14 @@ const Placement = () => {
           <div className="row justify-content-center">
             <div className="col-xl-7 col-lg-8">
               <div className="section-tittle text-center mb-55">
-                <h2 className='teamh'>Top Placed Student</h2>
+                <h2 className='teamh'>Top Placed Students</h2>
               </div>
             </div>
           </div>
           <div className="team-active">
             <div className="single-cat text-center">
-              <div className="team-member">
-                <img src="../../../public/assets/saahil-ali.jpg" alt="" />
+              <div className="team-member size  ">
+                <img src="../../../public/assets/saahil-ali.jpg" alt="Saahil Ali" />
               </div>
               <div className="cat-cap">
                 <h3> Saahil Ali</h3>
@@ -103,7 +103,7 @@ const Placement = () => {
               </div>
             </div>
             <div className="single-cat text-center">
-              <div className="team-member">
+              <div className="team-member  size">
                 <img src="../../../public/assets/gopal-oswal.jpg" alt="" />
               </div>
               <div className="cat-cap">
@@ -129,7 +129,7 @@ const Placement = () => {
               </div>
             </div>
             <div className="single-cat text-center">
-              <div className="team-member">
+              <div className="team-member  size">
                 <img src="../../../public/assets/kashish-ahuja.jpg" alt="" />
               </div>
               <div className="cat-cap">
@@ -160,13 +160,11 @@ const Placement = () => {
           </div>
         </div>
 
-
-
       </section>
 
 
       <section className="placement-page">
-        <h1 className="placement-heading">Top Companies</h1>
+        <h1 className="placement-heading">Recruiters 2023-24</h1>
         <table className="placement-table">
           <thead>
             <tr>
@@ -181,7 +179,7 @@ const Placement = () => {
                 <td>{placement.name}</td>
                 <td>
                   <a href={placement.career} target="_blank" rel="noopener noreferrer">
-                    <img src="../../../public/assets/career.jpg" alt="Career" width="auto" height="60" />
+                   Link↗️
                   </a>
 
 

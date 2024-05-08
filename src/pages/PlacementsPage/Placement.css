@@ -91,7 +91,7 @@ team-area .single-cat {
 }
 .teamh{
     color: #4255A4 !important;
-    margin-top: 50px;
+    /* margin-top: 20px; */
 }
 .team-active{
     display: flex;
@@ -126,12 +126,16 @@ team-area .single-cat {
 .team-active button.slick-next i {
     color: #ddd
 }
-
+.size{
+     
+        width: 80%;
+         
+    
+}
 
 .placement-page {
     text-align: center;
-    padding: 20px;
-    margin-top: 50px;
+     
   }
   
   .placement-heading {
