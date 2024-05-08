@@ -24,10 +24,11 @@ const HomePage = () => {
           <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img' />
         </div>
         <div className='info'>
-          <h1>Online Learning Platform</h1>
-          <p>gddddddddddddddddddddddddddddddddddddddd</p>
-          <a href="/dashboard" class="btnNew">Join now for Free</a>
-
+ 
+          <h1>Academic Placement Events!</h1>
+          <p>We brought you everything faculty notes , previous papers , syllabus , placement data , events , clubs ! </p>
+          <a href="https://www.linkedin.com/in/ashish-rai-404-error" class="btnNew">Connect with Us</a>
+ 
         </div>
 
         <div className='home-container'>
@@ -71,14 +72,14 @@ const HomePage = () => {
                 <img src="../../../public/assets/icon1.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/dashboard' : '/login'}>
                   <h3>Study Material</h3>
-                  <p>Explore Some study Material . </p>
+                  <p>Faculty Notes, Papers, syllabus</p>
                 </Link>
               </div>
               <div class="offering">
                 <img src="../../../public/assets/icon2.png" alt="Offering 1" />
                 <Link className='features-caption' to={isLoggedIn ? '/placement' : '/login'}>
                   <h3>Placements</h3>
-                  <p>Explore Placement Material . </p>
+                  <p>Explore Placement data and companies</p>
                 </Link>
               </div>
 
@@ -88,7 +89,7 @@ const HomePage = () => {
                 <Link className='features-caption' to={isLoggedIn ? '/Events' : '/login'}>
 
                   <h3>Events in IIPS</h3>
-                  <p>Click to Contribute</p>
+                  <p>Explore all events pf IIPS</p>
 
                 </Link>
               </div>
@@ -117,10 +118,25 @@ const HomePage = () => {
                         <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
-                        <p className='courseareap'>User Experience</p>
-                        <h3 style={{textAlign: 'left'}} ><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                        <p className='courseareap'>AWS Club</p>
+                        <h3 style={{ textAlign: 'left' }} ><a className='courseareah' href="#">AWS Cloud Club at IIPS for MCA and MTECH</a></h3>
+                        <p className='courseareap' style={{ textAlign: 'left' }}>
+The goal of this club is to teach students about the AWS Cloud and its various use cases, including those related to security, AI, business analytics, business transformation, etc.</p>
+                        <a href="https://www.meetup.com/indore-india/" className="border-btn border-btn2">Find out more</a>
+                      </div>
+                    </div>
+                  </div>
+                  <div className="properties pb-20">
+                    <div className="properties__card">
+                      <div className="properties__img overlay1">
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
+                      </div>
+                      <div className="properties-caption">
+                        <p className='courseareap'>GDSC Club</p>
+                        <h3 style={{ textAlign: 'left' }}><a className='courseareah' href="#">The Google Developer Student Club (GDSC)</a></h3>
+                        <p className='courseareap' style={{ textAlign: 'left' }}>The Developer Student Club at IIPS aims to organize and facilitate workshops, hackathons, speaker sessions, and Study Jams to provide students with technical development skills.</p>
+
+                        <a href="https://gdsc.community.dev/iips-international-institute-of-professional-studies-davv-indore-india/" className="border-btn border-btn2">Find out more</a>
                       </div>
                     </div>
                   </div>
@@ -131,26 +147,10 @@ const HomePage = () => {
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
-                        <h3  style={{textAlign: 'left'}}><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-                  
-                      
-                     
-                        <a href="#" className="border-btn border-btn2">Find out more</a>
-                      </div>
-                    </div>
-                  </div>
-                  <div className="properties pb-20">
-                    <div className="properties__card">
-                      <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
-                      </div>
-                      <div className="properties-caption">
-                        <p className='courseareap'>User Experience</p>
-                        <h3  style={{textAlign: 'left'}}><a className='courseareah' href="#">Fundamental of UX for Application design</a></h3>
-                        <p className='courseareap' style={{textAlign: 'left'}}>The automated process all your website tasks. Discover tools and techniques to engage effectively with vulnerable children and young people.</p>
-      
-                        <a href="#" className="border-btn border-btn2">Find out more</a>
+                        <h3 style={{ textAlign: 'left' }}><a className='courseareah' href="#">The Google Developer Student Club (GDSC)</a></h3>
+                        <p className='courseareap' style={{ textAlign: 'left' }}>The Developer Student Club at IIPS aims to organize and facilitate workshops, hackathons, speaker sessions, and Study Jams to provide students with technical development skills.</p>
+
+                        <a href="https://gdsc.community.dev/iips-international-institute-of-professional-studies-davv-indore-india/" className="border-btn border-btn2">Find out more</a>
                       </div>
                     </div>
                   </div>
