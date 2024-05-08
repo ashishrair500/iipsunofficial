@@ -88,15 +88,7 @@ const Footer = () => {
                       <li><a href="http://www.lib.dauniv.ac.in/" target="_blank"> Central Library</a></li>
                       <li><a href="https://www.dauniv.ac.in/utdresults" target="_blank">Results</a></li>
                       <li><a href="/AboutUs" target="_blank">Contact Us</a></li>
-                     
-                       
-                      <button className='btnNew' onClick={() => dispatch(signOutUser())}>
-              
-              Logout
-             
-    
-              </button>
-
+                      <li><a target="_blank" onClick={() => dispatch(signOutUser())}>Logout</a></li>
                     </ul>
                   </div>
                 </div>
