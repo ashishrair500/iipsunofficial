@@ -24,9 +24,11 @@ const HomePage = () => {
           <img src="../../../public/assets/h1_hero.png" loading="lazy" alt="IIPS Logo" className='main-img' />
         </div>
         <div className='info'>
+ 
           <h1>Academic Placement Events!</h1>
           <p>We brought you everything faculty notes , previous papers , syllabus , placement data , events , clubs ! </p>
           <a href="https://www.linkedin.com/in/ashish-rai-404-error" class="btnNew">Connect with Us</a>
+ 
         </div>
 
         <div className='home-container'>
@@ -95,6 +97,9 @@ const HomePage = () => {
             </div>
 
 
+        
+
+ 
 
             <div className="courses-area section-padding40 fix">
               <div className="container">
@@ -110,7 +115,7 @@ const HomePage = () => {
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>AWS Club</p>
@@ -124,7 +129,7 @@ The goal of this club is to teach students about the AWS Cloud and its various u
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>GDSC Club</p>
@@ -138,7 +143,7 @@ The goal of this club is to teach students about the AWS Cloud and its various u
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/featured1.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>

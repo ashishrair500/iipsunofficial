@@ -1,0 +1,77 @@
+/* Events.css */
+body,html{
+     font-family: "Mulish", sans-serif;
+  }
+ 
+  .event-heading{
+    text-align: center;
+    font-size: 60px;
+    margin: 20px 0;
+    color: #4255A4;
+  }
+ 
+  .events-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+  
+  .event-container {
+    width: 80%;
+    margin: 20px;
+    display: flex;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, box-shadow 0.3s;
+    height: auto;
+    border-radius: 30px;
+  }
+  .event-container:hover {
+    
+    background-color: #f0f0f0; /* Change background color on hover */
+    box-shadow: 0px 0px 20px rgba(255, 89, 252, 0.8); /* Adjust box shadow on hover */
+    
+  }
+  .event-image {
+    width: 50%;
+    
+  }
+  
+  .event-image img {
+    width: 100%;
+    height: auto;
+    border-radius: 30px 0 0 30px;
+  }
+  
+  .event-details {
+    width: 50%;
+    padding: 20px;
+  }
+  
+  .event-details h2 {
+    font-size: 24px;
+    margin-bottom: 10px;
+    text-align: center;
+    color:#4255A4  !important;
+  }
+  
+  .event-details p {
+    font-size: 18px;
+    color: #4255A4;
+  }
+  
+  .event-details .event-button {
+    display: block;
+    padding: 10px 20px;
+    background-color: #c054ff;
+    color: #fff;
+    text-align: center;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+  }
+  
+  .event-details .event-button:hover {
+    background-color: #5274ff;
+  }
+  

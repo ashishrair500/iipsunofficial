@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div className="single-footer-caption mb-50">
+                <div className="">
                   <div className="footer-tittle">
                     <h4>Current</h4>
                     <ul className="list-unstyled">
@@ -105,8 +105,8 @@ const Footer = () => {
           </div>
         </div>
         <div className="footer-bottom-area">
-          <div className="container">
-            <div className="footer-border">
+          <div >
+            <div >
               <div className="row d-flex align-items-center">
                 <div className="col-xl-12">
                   <div className="footer-copy-right text-center">
