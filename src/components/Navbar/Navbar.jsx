@@ -19,20 +19,32 @@ const Navbar = () => {
       <div className='navbar-container'>
 
         <div className='navbar-links'>
-
-          <Link className='navbar-brand' to='/'>
-            Home
+        {location.pathname === '/' &&  (
+            <Link className='navbar-brand' to='/dashboard'>
+              Academics
+            </Link>
+          )}
+          {location.pathname !== '/' &&  (
+            <Link className='navbar-brand' to='/'>
+              Home
+            </Link>
+          )}
+          <Link className='navbar-brand' to='/placement'>
+            Placement
+          </Link>
+          <Link className='navbar-brand' to='/events'>
+            Events
           </Link>
 
 
           <Link className='navbar-brand' to='/aboutus'>
             About
           </Link>
-          <Link className='navbar-brand' to='https://github.com/ashishrair500/iips-academics' target="_blank">
+          {/* <Link className='navbar-brand' to='https://github.com/ashishrair500/iips-academics' target="_blank">
             Github
-          </Link>
+          </Link> */}
           <Link className='navbar-brand' to='/our-contributers'>
-            Contributers
+            Contributors
           </Link>
         </div>
       </div>

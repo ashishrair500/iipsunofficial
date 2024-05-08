@@ -80,7 +80,7 @@ const DashboardPage = () => {
       </div>
       
       {/* <a href="https://forms.gle/v6PXeXPVk3W57sgt5" target="_blank" className='contribute-button'>
-      अपने Study Material को साझा करने के लिए click करें !</a>
+      अपने Study Material को साझा करने के लिए click करें !</a> */}
       
 
       {currentFolder === "root" ? (
@@ -91,7 +91,7 @@ const DashboardPage = () => {
  
             <p className='search-ins'>Use Sub Bar for Navigation</p>
  
-          )} */}
+          )}
        
 
       

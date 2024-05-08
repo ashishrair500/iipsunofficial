@@ -25,10 +25,10 @@ const HomePage = () => {
         </div>
         <div className='info'>
  
-          <h1>Academic Placement Events!</h1>
+          <h1>Academics Placement Events!</h1>
           <p>We brought you everything faculty notes , previous papers , syllabus , placement data , events , clubs ! </p>
-          <a href="https://www.linkedin.com/in/ashish-rai-404-error" class="btnNew">Connect with Us</a>
- 
+           
+      <Link to={isLoggedIn ? '/dashboard' : '/login'} class="btnNew">Explore more !</Link>
         </div>
 
         <div className='home-container'>
@@ -89,7 +89,7 @@ const HomePage = () => {
                 <Link className='features-caption' to={isLoggedIn ? '/Events' : '/login'}>
 
                   <h3>Events in IIPS</h3>
-                  <p>Explore all events pf IIPS</p>
+                  <p>Explore all events of IIPS</p>
 
                 </Link>
               </div>
@@ -129,7 +129,7 @@ The goal of this club is to teach students about the AWS Cloud and its various u
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/gdsc-club.jpg" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>GDSC Club</p>
@@ -143,7 +143,7 @@ The goal of this club is to teach students about the AWS Cloud and its various u
                   <div className="properties pb-20">
                     <div className="properties__card">
                       <div className="properties__img overlay1">
-                        <a href="#"><img src="../../../public/assets/aws.jpg" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/sampoorna-club.png" alt="" /></a>
                       </div>
                       <div className="properties-caption">
                         <p className='courseareap'>User Experience</p>
