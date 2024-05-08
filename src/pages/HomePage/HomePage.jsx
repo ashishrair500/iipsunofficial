@@ -205,15 +205,16 @@ const HomePage = () => {
                       <img src="../../../public/assets/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
-                      <p className='parea3'>Spent time in making your own notes but no use after exam don't worry help needy juniors by sharing with us.</p>
+                      <p className='parea3'>Spent time in making your own notes but no use after exam don't worry help needy juniors by sharing with us.We will mentions you in website for contributions</p>
                     </div>
                   </div>
+                 
                   <div className="single-features">
                     <div className="features-icon">
                       <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
-                      <p className='parea3'>We will mentions you in website for contributions.</p>
+                      <a className='courseareah' target='_blank' href="mailto:ashishrair500@example.com">What are you thinking drop a mail we will reach to you ↗️</a>
                     </div>
                   </div>
                 </div>
