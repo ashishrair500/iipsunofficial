@@ -10,7 +10,7 @@ const Events = () => {
       <div class="content-below-navbar">
 
 </div>
-<img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img' />
+<img src="/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img' />
 <div className='info2'>
   <h1>Events</h1>
   <p>Home | Events</p>
@@ -22,7 +22,7 @@ const Events = () => {
         <div className="events-container">
         <div className="event-container">
             <div className="event-image">
-              <img src="../../../public/assets/tourista-event.jpg"target='_blank' alt="Event 2" />
+              <img src="/assets/tourista-event.jpg"target='_blank' alt="Event 2" />
             </div>
             <div className="event-details">
               <h2>Tourista</h2>
@@ -32,7 +32,7 @@ const Events = () => {
           </div>
           <div className="event-container">
             <div className="event-image">
-              <img src="../../../public/assets/expression-event.jpg" target='_blank'alt="Event 1" />
+              <img src="/assets/expression-event.jpg" target='_blank'alt="Event 1" />
             </div>
             <div className="event-details">
               <h2>Expression</h2>
@@ -42,7 +42,7 @@ const Events = () => {
           </div>
           <div className="event-container">
             <div className="event-image">
-              <img src="../../../public/assets/synergy-event.jpeg" target='_blank' alt="Event 2" />
+              <img src="/assets/synergy-event.jpeg" target='_blank' alt="Event 2" />
             </div>
             <div className="event-details">
               <h2>Synergy</h2>
@@ -51,10 +51,10 @@ const Events = () => {
             </div>
           </div>
           {/* Add more event containers as needed */}
-          <Link to='https://iips.edu.in/event.php' target='_blank' class="btnNew"  style={{marginBottom:30+"px"}}>Explore All Events !</Link>
+         
 
         </div>
-        
+        <Link to='https://iips.edu.in/event.php' target='_blank' class="btnNew"  style={{marginLeft:576+"px"}}>Explore All Events !</Link>
       <Footer />
     </>
   );

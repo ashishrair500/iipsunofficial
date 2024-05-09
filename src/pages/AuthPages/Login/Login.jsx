@@ -6,6 +6,7 @@ import LoginForm from '../../../components/AuthComponents/LoginForm';
 import { toast } from 'react-toastify';
 import './Login.css'; // Import your styles
 import Navbar from '../../../components/Navbar/Navbar';
+import Footer from '../../../components/Footer/Footer';
 const LoginPage = () => {
   const [success, setSuccess] = React.useState(false);
   const navigate = useNavigate();
@@ -44,7 +45,7 @@ const LoginPage = () => {
         <div>
           <button type='button' onClick={handleGoogleSignIn} className='google-signin-btn'>
             <span className='google-icon'>
-              <img src="../../../../public/assets/googlelogo.jpeg"
+              <img src="/assets/googlelogo.jpeg"
                 alt="Google Logo" />
             </span>
             Sign In with Google
@@ -57,6 +58,7 @@ const LoginPage = () => {
         </div>
       </div>
     </div>
+    <Footer/>
 </>
   );
 };

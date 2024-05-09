@@ -15,7 +15,10 @@ const HomeComponent = () => {
   return (
     <div className="col-md-12 w-100">
       {isLoading ? (
-        <h1 className="display-1 my-5 text-center text-info"> Please wait Loading...</h1>
+        <div> 
+        <h1 className="display-1 my-5 text-center text-info"> Please wait Loading... </h1>
+        <h3  className=' my-5 text-center text-info'>Refresh the Page if subjects are not visible</h3></div>
+       
       ) : (
         <>
           <ShowItems title={"Choose Course"} type={"folder"} items={userFolders} />
