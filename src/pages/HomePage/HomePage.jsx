@@ -151,7 +151,7 @@ const HomePage = () => {
                     <div className="properties__card">
                       <div className="properties__img overlay1">
 
-                        <a href="#"><img src="../../../public/assets/sampoorna-club.png" alt="" /></a>
+                        <a href="#"><img src="../../../public/assets/iips.jpg" alt="" /></a>
         </div>
                       <div className="properties-caption">
                         <p className='courseareap'>All Clubs</p>
@@ -194,10 +194,10 @@ const HomePage = () => {
                   </div>
                   <div className="single-features">
                     <div className="features-icon">
-                      <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
+                      
                     </div>
                     <div className="features-caption">
-                      <p className='parea3'>Contribute faculties notes , previous papers, syllabus etc with us.</p>
+                      <p className='parea3'> ➡️ Contribute faculties notes , previous papers, syllabus etc with us.</p>
                     </div>
                   </div>
                   <div className="single-features">
@@ -205,7 +205,9 @@ const HomePage = () => {
                       <img src="../../../public/assets/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
+ 
                       <p className='parea3'>Spent time in making your own notes but no use after exam don't worry help needy juniors by sharing with us.We will mentions you in website for contributions</p>
+ 
                     </div>
                   </div>
                  
@@ -214,8 +216,12 @@ const HomePage = () => {
                       <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
-                      <a className='courseareah' target='_blank' href="mailto:ashishrair500@example.com">What are you thinking drop a mail we will reach to you ↗️</a>
+ 
+                      <p className='parea3 mb-30'>➡️ We will mentions you in website for contributions.</p>
+ 
                     </div>
+                    <div  > 
+                    <a href="https://www.linkedin.com/in/sanyam-jain-874892201/" target='_blank' className="event-button" style={{marginTop:10+"px"}}>Connect With Us ↗️</a></div>
                   </div>
                 </div>
               </div>
@@ -234,24 +240,13 @@ const HomePage = () => {
                 <div class="right-part">
                   <h2>Take the new step toward your open source journey by connecting with us.</h2>
                   <p>If you're keen on joining us as a developer, just explore our website thoroughly. Think up about new and more features.Share any good ideas you have with us.You are welcome !</p>
-                  <a target='_blank' href="#" class="btnNew">Click to Contribute</a>
+                  <a target='_blank' href="" class="event-button">Click to Contribute !</a>
                 </div>
               </div>
             </section>
 
 
-            {/*          
-            <div className='carousel'>
-              <img src="../../../public/assets/1_iips.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/2_iips_meme.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/3_iips-hostel.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/4_iips.jpg" alt="IIPS" loading="lazy" />
-            </div> */}
-            {/* <a target='_blank' href="https://www.linkedin.com/school/iips-davv/" target="_blank" className='iips-linkedin'
-      >@International Institute of Professional Studies
-        <img src="../../../public/assets/linkedin-logo.jpg"loading="lazy" ></img>
-
-      </a> */}
+         
 
 
 

@@ -92,10 +92,10 @@ const Contributer = () => {
         </table>
         <div className="thank-you-note">
           <p>
-            Dear Contributer, Thank you so much.🙂
+            Dear Contributer, Thank you so much.
           </p>
           <p>
-            Your contribution is the Big help for all IIPS students. 👍
+            Your contribution is the Big help for all IIPS students. 
           </p>
         </div>
       </div>

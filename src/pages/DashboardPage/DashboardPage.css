@@ -15,32 +15,15 @@
 .main-img{
   z-index: 10000;
 }
- .contribute-button {
-
-  border: none;
-  color: rgb(251, 73, 73);
-  font-size: 20px;
-  display: flex;
-  justify-content: center;
-  
-  white-space: nowrap;
-  text-decoration: underline;
-  padding-top: 18px;
-  margin-bottom: 20px;
-}
-a.contribute-button:hover {
-  color: seashell;
-  cursor: pointer;
-}
-
+ 
 .search-ins {
   text-align: center;
-  color: black;
-  font-size: 1em;
+  color: red;
+  font-size: 1.3em;
   font-weight: bold;
-  margin-top: 100px;
-  animation: colorTransition 10s linear infinite;
-  font-style: italic;
+  margin-top: 60px;
+   
+  
 }
 
 
