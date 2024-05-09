@@ -20,7 +20,7 @@ const Footer = () => {
 
                   <a href="https://www.dauniv.ac.in/" target='_blank' className='footer-text'>
                         <img 
-                          src="../../../public/assets/favicon.ico"
+                          src="/assets/favicon.ico"
                           alt="Davv Logo"
                           className='footer-logo'
                         /> IIPS DAVV
@@ -34,7 +34,7 @@ const Footer = () => {
                     <div className="footer-social">
                       <a href="https://www.linkedin.com/school/iips-davv/" target='_blank'>
                         <img
-                          src="../../../public/assets/linkedin.svg"
+                          src="/assets/linkedin.svg"
                           alt="LinkedIn"
                           className='social-links-icon'
                         />
@@ -43,7 +43,7 @@ const Footer = () => {
 
                       <a href="https://www.instagram.com/iips_davv_indore?igsh=MWV6b296dzA3MnU2" target='_blank'>
                         <img
-                          src="../../../public/assets/insta.svg"
+                          src="/assets/insta.svg"
                           alt="Instagram"
                           className='social-links-icon'
                           style={{marginLeft:10 +"px"}}
@@ -68,7 +68,7 @@ const Footer = () => {
                 </div>
               </div>
               <div className="col-xl-2 col-lg-4 col-md-4 col-sm-6">
-                <div className="">
+                <div >
                   <div className="footer-tittle">
                     <h4>Current</h4>
                     <ul className="list-unstyled">

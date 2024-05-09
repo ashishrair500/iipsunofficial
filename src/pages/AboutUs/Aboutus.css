@@ -81,12 +81,12 @@ h3 {
 /* Responsive styles for smaller screens */
 @media (max-width: 768px) {
   h2 {
-    font-size: 40px !important; /* Adjusted font size for smaller screens */
+    font-size: 30px !important; /* Adjusted font size for smaller screens */
   }
 
   .team-member {
     flex: 1 0 100%; /* Allow team members to take full width on smaller screens */
-    max-width: 100%; /* Set a maximum width of 100% for team members on smaller screens */
+    max-width: 80%; /* Set a maximum width of 100% for team members on smaller screens */
   }
 
   .social-links a {

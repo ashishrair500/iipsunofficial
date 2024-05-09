@@ -5,6 +5,7 @@ import 'firebase/compat/auth';
 import './Register.css'; // Import your styles
 import { toast } from 'react-toastify';
 import Navbar from '../../../components/Navbar/Navbar';
+import Footer from '../../../components/Footer/Footer';
 
 const Register = () => {
 
@@ -44,7 +45,7 @@ const Register = () => {
       <div>
         <button type='button' onClick={handleGoogleSignIn} className='google-signin-btn'>
           <span className='google-icon'>
-            <img src="../../../../public/assets/googlelogo.jpeg"
+            <img src="/assets/googlelogo.jpeg"
               alt="Google Logo" />
           </span>
           Sign Up with Google
@@ -52,6 +53,7 @@ const Register = () => {
       </div>
     </div>
   </div>
+  <Footer/>
 </>
   );
 };

@@ -58,7 +58,7 @@ const Placement = () => {
       <div class="content-below-navbar">
 
       </div>
-      <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img' />
+      <img src="/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img' />
       <div className='info2'>
         <h1>Placement 2023-24 </h1>
         <p>Home | Placement</p>
@@ -78,7 +78,7 @@ const Placement = () => {
           <div className="team-active">
             <div className="single-cat text-center">
               <div className="team-member size  ">
-                <img src="../../../public/assets/saahil-ali.jpg" alt="Saahil Ali" />
+                <img src="/assets/saahil-ali.jpg" alt="Saahil Ali" />
               </div>
               <div className="cat-cap">
                 <h3> Saahil Ali</h3>
@@ -87,14 +87,14 @@ const Placement = () => {
 
                   <a href="https://www.linkedin.com/in/saahil-ali-290399/" target='_blank'>
                     <img
-                      src="../../../public/assets/linkedin.svg"
+                      src="/assets/linkedin.svg"
                       alt="LinkedIn"
                       className='social-links-icon'
                     />
                   </a>
                   <a href="https://github.com/programmer290399" target='_blank'>
                     <img
-                      src="../../../public/assets/github.svg"
+                      src="/assets/github.svg"
                       alt="GitHub"
                       className='social-links-icon'
                     />
@@ -104,7 +104,7 @@ const Placement = () => {
             </div>
             <div className="single-cat text-center">
               <div className="team-member  size">
-                <img src="../../../public/assets/gopal-oswal.jpg" alt="" />
+                <img src="/assets/gopal-oswal.jpg" alt="" />
               </div>
               <div className="cat-cap">
                 <h3> Gopal Oswal</h3>
@@ -113,14 +113,14 @@ const Placement = () => {
 
                   <a href="https://www.linkedin.com/in/oswalgopal/" target='_blank'>
                     <img
-                      src="../../../public/assets/linkedin.svg"
+                      src="/assets/linkedin.svg"
                       alt="LinkedIn"
                       className='social-links-icon'
                     />
                   </a>
                   <a href="https://oswalgopal.github.io/" target='_blank'>
                     <img
-                      src="../../../public/assets/github.svg"
+                      src="/assets/github.svg"
                       alt="GitHub"
                       className='social-links-icon'
                     />
@@ -130,7 +130,7 @@ const Placement = () => {
             </div>
             <div className="single-cat text-center">
               <div className="team-member  size">
-                <img src="../../../public/assets/kashish-ahuja.jpg" alt="" />
+                <img src="/assets/kashish-ahuja.jpg" alt="" />
               </div>
               <div className="cat-cap">
                 <h3>Kashish Ahuja</h3>
@@ -139,14 +139,14 @@ const Placement = () => {
 
                   <a href="https://www.linkedin.com/in/kashish-ahuja-1505/" target='_blank'>
                     <img
-                      src="../../../public/assets/linkedin.svg"
+                      src="/assets/linkedin.svg"
                       alt="LinkedIn"
                       className='social-links-icon'
                     />
                   </a>
                   <a href="https://github.com/kashishahuja2002" target='_blank'>
                     <img
-                      src="../../../public/assets/github.svg"
+                      src="/assets/github.svg"
                       alt="GitHub"
                       className='social-links-icon'
                     />
@@ -186,7 +186,7 @@ const Placement = () => {
                 </td>
                 <td>
                   <a href={placement.linkedin} target="_blank" rel="noopener noreferrer">
-                    <img src="../../../public/assets/linkedin.svg" alt="GitHub" width="auto" height="40" />
+                    <img src="/assets/linkedin.svg" alt="GitHub" width="auto" height="40" />
                   </a>
                 </td>
               </tr>

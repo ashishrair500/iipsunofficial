@@ -21,29 +21,20 @@
    
     flex-basis: calc(19% - 20px); /* 20% to fit 5 items horizontally */
     margin-top: 4px;
-    padding: 0px;
+    margin-bottom: 15px;
     font-size: 15px;
     text-align: center;
     cursor: pointer;
-<<<<<<< Updated upstream
-    transition: transform 0.3s, background-color 0.3s;
-=======
     transition: transform 0.3s, box-shadow 0.3s;
     background: linear-gradient(to left, rgb(249, 248, 248) 50%, rgb(243, 228, 255) 50%) right;
     background-size: 200%;
     transition: .5s ease-out;
->>>>>>> Stashed changes
   }
   
   .show-item:hover {
     transform: scale(1.1); /* Grow on hover */
-<<<<<<< Updated upstream
-    background-color:  rgba(123, 123, 235, 0.121); /* Glow on hover */
-    
-=======
     box-shadow: 0px 0px 15px rgba(0, 0, 0, 0.3); /* Glow on hover */
     background-position: left;
->>>>>>> Stashed changes
   }
   
   .show-item img {

@@ -25,7 +25,7 @@ const ShowItems = ({ title, items, type }) => {
     //  const fileId = currentFile.docId; 
     if (type !== "folder") {
     navigate(`/dashboard/file/${itemId}/deletefile`);
-      }else {alert("You can not delete folder !send delete request through Google form")}
+      }else {alert("You can not delete folder !Contact Admin for further assistance.")}
     };
 
   // Sort items by name in ascending order
@@ -41,7 +41,7 @@ const ShowItems = ({ title, items, type }) => {
             onClick={() => handleClick(item.docId)}
               onContextMenu={(event) => handleRightClick(event, item.docId)}
           >
-            <img src={type === 'file' ? "../../../../public/assets/file-icon.png" : "../../../../public/assets/folder-icon.png"} alt={type === 'file' ? "File Icon" : "Folder Icon"} />
+            <img src={type === 'file' ? "/assets/file-icon.png" : "/assets/folder-icon.png"} alt={type === 'file' ? "File Icon" : "Folder Icon"} />
             <span>{item.data?.name}</span>
           </div>
         ))}

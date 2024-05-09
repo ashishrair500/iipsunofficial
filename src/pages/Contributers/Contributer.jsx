@@ -54,7 +54,7 @@ const Contributer = () => {
       <div class="content-below-navbar">
   
   </div>
-       <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
+       <img src="/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
        <div className='info2'>
         <h1>Top Contributers</h1>
         <p>Home | Contributer</p>
@@ -78,12 +78,12 @@ const Contributer = () => {
                 <td>{contributor.name}</td>
                 <td>
                   <a href={contributor.linkedin} target="_blank" rel="noopener noreferrer">
-                    <img src="../../../public/assets/linkedin.svg" alt="LinkedIn" width="auto" height="35" />
+                    <img src="/assets/linkedin.svg" alt="LinkedIn" width="auto" height="35" />
                   </a>
                 </td>
                 <td>
                   <a href={contributor.github} target="_blank" rel="noopener noreferrer">
-                    <img src="../../../public/assets/github.svg" alt="GitHub" width="auto" height="40" />
+                    <img src="/assets/github.svg" alt="GitHub" width="auto" height="40" />
                   </a>
                 </td>
               </tr>
