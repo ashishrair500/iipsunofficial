@@ -205,15 +205,20 @@ const HomePage = () => {
                       <img src="../../../public/assets/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
-                      <p className='parea3'> ➡️ Spent time in making your own notes but no use after exam don't worry help needy juniors by sharing with us.</p>
+ 
+                      <p className='parea3'>Spent time in making your own notes but no use after exam don't worry help needy juniors by sharing with us.We will mentions you in website for contributions</p>
+ 
                     </div>
                   </div>
+                 
                   <div className="single-features">
                     <div className="features-icon">
                       <img src="../../../public/assets/img/icon/right-icon.svg" alt="" />
                     </div>
                     <div className="features-caption">
+ 
                       <p className='parea3 mb-30'>➡️ We will mentions you in website for contributions.</p>
+ 
                     </div>
                     <div  > 
                     <a href="https://www.linkedin.com/in/sanyam-jain-874892201/" target='_blank' className="event-button" style={{marginTop:10+"px"}}>Connect With Us ↗️</a></div>
@@ -241,18 +246,7 @@ const HomePage = () => {
             </section>
 
 
-            {/*          
-            <div className='carousel'>
-              <img src="../../../public/assets/1_iips.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/2_iips_meme.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/3_iips-hostel.jpg" alt="IIPS" loading="lazy" />
-              <img src="../../../public/assets/4_iips.jpg" alt="IIPS" loading="lazy" />
-            </div> */}
-            {/* <a target='_blank' href="https://www.linkedin.com/school/iips-davv/" target="_blank" className='iips-linkedin'
-      >@International Institute of Professional Studies
-        <img src="../../../public/assets/linkedin-logo.jpg"loading="lazy" ></img>
-
-      </a> */}
+         
 
 
 
