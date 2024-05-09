@@ -72,19 +72,18 @@ const DashboardPage = () => {
   
 </div>
      <img src="../../../public/assets/hero2.png" loading="lazy" alt="IIPS Logo" className='main-img'/>
-     <div className='info2'>
+     <div className='info2 'style={{marginBottom:0+"px"}}>
       <h1>Study Material</h1>
       <p>Home | Subjects</p>
       
       
       </div>
       
-      {/* <a href="https://forms.gle/v6PXeXPVk3W57sgt5" target="_blank" className='contribute-button'>
-      अपने Study Material को साझा करने के लिए click करें !</a> */}
+      
       
 
       {currentFolder === "root" ? (
-        <p className='search-ins'>Please use Ctrl+F to search your subject</p>
+        <p className='search-ins'>Please use Ctrl+F to search your subject !</p>
               
           ) : (
  

@@ -380,7 +380,35 @@ body, html {
   color: #fff !important;
   z-index: -1
 } */
+.event-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #c054ff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 
+.event-button:hover {
+  background-color: #5274ff;
+}
+
+
+
+.event-button {
+  display: block;
+  padding: 10px 20px;
+  background-color: #c054ff;
+  color: #fff;
+  text-align: center;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
 .carousel {
   margin-top: 57px;
   display: flex;
