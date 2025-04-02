@@ -47,7 +47,6 @@ const DashboardPage = () => {
   }, [isLoggedIn, navigate]);
 
   useEffect(() => {
-    userId;
     if (userId) {
       dispatch(getFolders(userId));
       dispatch(getFiles(userId));
