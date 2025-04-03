@@ -1,4 +1,4 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link, useLocation, useNavigate } from 'react-router-dom';
 import { useSelector, useDispatch } from 'react-redux';
 import { signOutUser } from '../../redux/actionCreators/authActionCreator';
 import './Navbar.css';
@@ -17,10 +17,9 @@ const Navbar = () => {
         /> IIPS
       </a>
       <div className='navbar-container'>
-
         <div className='navbar-links'>
-          {location.pathname === '/' && isAuthenticated && (
-            <Link className='navbar-brand' to='/dashboard'>
+          {location.pathname === '/' && (
+            <Link className='navbar-brand' to={isAuthenticated ? '/dashboard' :'/login'}>
               Academics
             </Link>
           )}
