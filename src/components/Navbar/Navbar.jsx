@@ -19,7 +19,7 @@ const Navbar = () => {
       <div className='navbar-container'>
 
         <div className='navbar-links'>
-          {location.pathname === '/' && (
+          {location.pathname === '/' && isAuthenticated && (
             <Link className='navbar-brand' to='/dashboard'>
               Academics
             </Link>

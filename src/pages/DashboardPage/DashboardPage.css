@@ -78,3 +78,28 @@
   
   word-wrap: break-word;
 }
+
+.btx-search {
+  display: inline-block; 
+  margin-bottom: 10px;
+  margin-left: 900px;
+  padding: 4px 5px;
+  font-size: 18px;
+  text-align: center;
+  text-decoration: none;
+  color: #ffffff; 
+  background-color: hsl(0, 0%, 34%);
+  border: 1px solid #ccc;
+  border-radius: 5px; 
+  cursor: pointer;
+  transition: background-color 0.3s ease; 
+}
+
+.btx-search:hover {
+  background-color: #000000; 
+}
+
+.btx-search:focus {
+  outline: none; 
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2); 
+}
