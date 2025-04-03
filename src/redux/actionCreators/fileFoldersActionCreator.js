@@ -83,27 +83,24 @@ export const createFolder = (data) =>(dispatch) => {
 //this to get all the folders of the user who is logged in
 
 export const getFolders = (userId) =>(dispatch) => {
-    dispatch(setLoading(true))
+  dispatch(setLoading(true)); 
   fire
   .firestore()
   .collection('folders')
-
-    //here i have replaced userId with admin id T3XBsF3xtDMgTRQIi7xVQYqffpe2
-
   .where('userId', '==', "T3XBsF3xtDMgTRQIi7xVQYqffpe2")
   .get()
   .then((folders)=>{
     const foldersData =  folders.docs.map((folder)=>({
         data : folder.data(),
         docId : folder.id,
-    })
-       
-    )
-    //this is to get all the folders from the firebase
-    dispatch(setLoading(false))  //if you have to check this again
-    dispatch(addFolders(foldersData))
- 
+    }));
+    dispatch(addFolders(foldersData));
+    dispatch(setLoading(false)); 
   })
+  .catch((error) => {
+    console.error("Error fetching folders:", error);
+    dispatch(setLoading(false)); 
+  });
 }
 
 //----------------------------------------------------------------action--creator--3---------------------------------------------------------------------------
@@ -118,24 +115,27 @@ export const changeFolder = (folderId) =>(dispatch) => {
 // files
 
 export const getFiles = (userId) =>(dispatch) => {
-    fire
-    .firestore()
-    .collection('files')
-    .where('userId', '==', "T3XBsF3xtDMgTRQIi7xVQYqffpe2")
-    .get()
-    .then((files)=>{
-      const filesData =  files.docs.map((file)=>({
-          data : file.data(),
-          docId : file.id,
-      })
-         
-      )
-     
-      dispatch(addFiles(filesData))
-})}
+  dispatch(setLoading(true)); 
+  fire
+  .firestore()
+  .collection('files')
+  .where('userId', '==', "T3XBsF3xtDMgTRQIi7xVQYqffpe2")
+  .get()
+  .then((files)=>{
+    const filesData =  files.docs.map((file)=>({
+        data : file.data(),
+        docId : file.id,
+    }));
+    dispatch(addFiles(filesData));
+    dispatch(setLoading(false)); 
+  })
+  .catch((error) => {
+    console.error("Error fetching files:", error);
+    dispatch(setLoading(false)); 
+  });
+}
 
 export const createFile = (data,setSuccess) =>(dispatch) => {
- 
     fire
     .firestore()
     .collection('files')

@@ -51,7 +51,7 @@ const DashboardPage = () => {
       dispatch(getFolders(userId));
       dispatch(getFiles(userId));
     }
-  }, [userId]);
+  }, [userId, dispatch]);
 
   useEffect(() => {
     if (pathname.includes("/file/")) {
